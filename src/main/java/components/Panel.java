@@ -1,10 +1,13 @@
 package main.java.components;
 
+import java.awt.AlphaComposite;
 import javax.swing.JComponent;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
+import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
+import main.java.login_register.MainPanel;
 
 
 /**
@@ -12,6 +15,13 @@ import java.awt.geom.RoundRectangle2D;
  * @author larry
  */
 public class Panel extends JComponent{
+    public float getAlpha() {
+        return alpha;
+    }
+
+    public void setAlpha(float alpha) {
+        this.alpha = alpha;
+    }
     public Panel(){
         
     }
@@ -24,5 +34,17 @@ public class Panel extends JComponent{
         g2.fill(new RoundRectangle2D.Double(0,0,getWidth(),getHeight(),10,10));
         g2.dispose();
         super.paintComponent(g);
+    }
+    
+    private float alpha;
+
+    @Override
+    public void paint(Graphics grphcs) {
+        super.paint(grphcs);
+        Graphics2D g2 = (Graphics2D) grphcs.create();
+        g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha * 0.8f));
+        g2.setColor(MainPanel.mainColor);
+        g2.fill(new Rectangle2D.Double(0, 0, getWidth(), getHeight()));
+        g2.dispose();
     }
 }
