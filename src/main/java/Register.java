@@ -1,7 +1,5 @@
 package main.java;
 
-import main.java.components.Panel;
-
 /**
  *
  * @author larry
@@ -19,10 +17,10 @@ public class Register extends Panel{
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        textField1 = new main.java.components.TextField();
-        textField2 = new main.java.components.TextField();
-        textField3 = new main.java.components.TextField();
-        passwordField1 = new main.java.components.PasswordField();
+        textField1 = new main.java.TextField();
+        textField2 = new main.java.TextField();
+        textField3 = new main.java.TextField();
+        passwordField1 = new main.java.PasswordField();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
@@ -120,9 +118,9 @@ public class Register extends Panel{
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private main.java.components.PasswordField passwordField1;
-    private main.java.components.TextField textField1;
-    private main.java.components.TextField textField2;
-    private main.java.components.TextField textField3;
+    private main.java.PasswordField passwordField1;
+    private main.java.TextField textField1;
+    private main.java.TextField textField2;
+    private main.java.TextField textField3;
     // End of variables declaration//GEN-END:variables
 }

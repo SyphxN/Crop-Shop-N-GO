@@ -17,12 +17,7 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        mainPanel2 = new main.java.login_register.MainPanel();
-        mainPanel1 = new main.java.login_register.MainPanel();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().add(mainPanel1, java.awt.BorderLayout.CENTER);
-
         getAccessibleContext().setAccessibleDescription("");
 
         pack();
@@ -55,7 +50,5 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private main.java.login_register.MainPanel mainPanel1;
-    private main.java.login_register.MainPanel mainPanel2;
     // End of variables declaration//GEN-END:variables
 }

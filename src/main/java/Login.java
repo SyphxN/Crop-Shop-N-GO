@@ -1,7 +1,5 @@
 package main.java;
 
-import main.java.components.Panel;
-
 /**
  *
  * @author larry
@@ -17,7 +15,7 @@ public class Login extends Panel{
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        textField1 = new main.java.components.TextField();
+        textField1 = new main.java.TextField();
         jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(153, 255, 153));
@@ -53,6 +51,6 @@ public class Login extends Panel{
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private main.java.components.TextField textField1;
+    private main.java.TextField textField1;
     // End of variables declaration//GEN-END:variables
 }
