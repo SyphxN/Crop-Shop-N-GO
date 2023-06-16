@@ -11,6 +11,6 @@ params = {
 
 search = GoogleSearch(params)
 results = search.get_dict()
-with open(r'src\main\java\serpAPI.json','w') as f:
+with open(r'src\\main\\java\\serpAPI.json','w') as f:
     json.dump(results,f,indent = 4)
 print(results['visual_matches'])
