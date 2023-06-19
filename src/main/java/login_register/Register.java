@@ -1,4 +1,4 @@
-package main.java.login_register;
+ package main.java.login_register;
 
 import main.java.components.Panel;
 
@@ -18,11 +18,14 @@ public class Register extends Panel{
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        button1 = new main.java.components.Button();
+        button2 = new main.java.components.Button();
         jLabel1 = new javax.swing.JLabel();
         textField1 = new main.java.components.TextField();
         textField2 = new main.java.components.TextField();
         textField3 = new main.java.components.TextField();
         passwordField1 = new main.java.components.PasswordField();
+        button3 = new main.java.components.Button();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
@@ -68,6 +71,11 @@ public class Register extends Panel{
             }
         });
 
+        button3.setBackground(new java.awt.Color(51, 255, 255));
+        button3.setText("SIGN UP");
+        button3.setToolTipText("SIGN UP");
+        button3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -79,7 +87,8 @@ public class Register extends Panel{
                     .addComponent(textField2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(textField1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(passwordField1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(passwordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 240, Short.MAX_VALUE)
+                    .addComponent(button3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(30, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -89,13 +98,15 @@ public class Register extends Panel{
                 .addComponent(jLabel1)
                 .addGap(29, 29, 29)
                 .addComponent(textField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40)
+                .addGap(33, 33, 33)
                 .addComponent(textField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40)
+                .addGap(33, 33, 33)
                 .addComponent(textField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40)
+                .addGap(33, 33, 33)
                 .addComponent(passwordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(79, Short.MAX_VALUE))
+                .addGap(30, 30, 30)
+                .addComponent(button3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         jLabel1.getAccessibleContext().setAccessibleName("SignupTitle");
@@ -119,6 +130,9 @@ public class Register extends Panel{
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private main.java.components.Button button1;
+    private main.java.components.Button button2;
+    private main.java.components.Button button3;
     private javax.swing.JLabel jLabel1;
     private main.java.components.PasswordField passwordField1;
     private main.java.components.TextField textField1;
