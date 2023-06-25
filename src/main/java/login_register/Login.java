@@ -1,6 +1,6 @@
 package main.java.login_register;
 
-import main.java.components.Panel;
+import main.java.components.Panel; 
 
 /**
  *
@@ -8,10 +8,15 @@ import main.java.components.Panel;
  */
 public class Login extends Panel{
 
+    private Event event;
     
     public Login() {
         initComponents();
         setAlpha(1);
+    }
+    
+    public void setEventLogin(Event event){
+        this.event=event;
     }
 
     @SuppressWarnings("unchecked")
@@ -23,8 +28,9 @@ public class Login extends Panel{
         passwordField1 = new main.java.components.PasswordField();
         button3 = new main.java.components.Button();
 
-        setBackground(new java.awt.Color(153, 255, 153));
+        setBackground(new java.awt.Color(62, 65, 62));
 
+        textField1.setForeground(new java.awt.Color(204, 204, 204));
         textField1.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         textField1.setHint("USERNAME");
         textField1.addActionListener(new java.awt.event.ActionListener() {
@@ -34,9 +40,11 @@ public class Login extends Panel{
         });
 
         jLabel1.setFont(new java.awt.Font("SansSerif", 1, 20)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("LOGIN");
 
+        passwordField1.setForeground(new java.awt.Color(204, 204, 204));
         passwordField1.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         passwordField1.setHint("PASSWORD");
         passwordField1.addActionListener(new java.awt.event.ActionListener() {
@@ -45,9 +53,16 @@ public class Login extends Panel{
             }
         });
 
+        button3.setBackground(new java.awt.Color(0, 153, 255));
+        button3.setForeground(new java.awt.Color(255, 255, 255));
         button3.setText("LOGIN");
         button3.setToolTipText("SIGN UP");
-        button3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        button3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        button3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -84,6 +99,12 @@ public class Login extends Panel{
     private void passwordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_passwordField1ActionPerformed
+
+    private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
+        if (getAlpha() == 0){
+            event.loggedIn();
+        }
+    }//GEN-LAST:event_button3ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

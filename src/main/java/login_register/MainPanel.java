@@ -105,6 +105,11 @@ public class MainPanel extends javax.swing.JPanel {
             });
         }
     }
+    
+    
+    public void setEventLogin(Event event){
+        login.setEventLogin(event);
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents

@@ -1,15 +1,37 @@
 
 package main.java;
 
+import ComputerCamera.ComputerCamera;
+import main.java.login_register.Event;
+
 /**
  *
  * @author larry
  */
 public class Main extends javax.swing.JFrame {
 
+    private ComputerCamera camera;
     
     public Main() {
         initComponents();
+        camera = new ComputerCamera();
+        Event event=new Event(){
+            @Override
+            public void loggedIn() {
+                mainPanel1.setVisible(false);
+                mainPanel2.setVisible(false);
+                camera.setVisible(true);
+            }
+
+            @Override
+            public void loggedOut() {
+                mainPanel1.setVisible(true);
+                mainPanel2.setVisible(true);
+                camera.setVisible(false);
+            }
+        };
+        mainPanel1.setEventLogin(event);
+        camera.setEventLogin(event);
     }
 
     

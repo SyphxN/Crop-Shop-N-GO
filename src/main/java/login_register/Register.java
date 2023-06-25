@@ -71,10 +71,11 @@ public class Register extends Panel{
             }
         });
 
-        button3.setBackground(new java.awt.Color(51, 255, 255));
+        button3.setBackground(new java.awt.Color(0, 153, 255));
+        button3.setForeground(new java.awt.Color(255, 255, 255));
         button3.setText("SIGN UP");
         button3.setToolTipText("SIGN UP");
-        button3.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        button3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

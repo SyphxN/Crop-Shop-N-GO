@@ -14,6 +14,7 @@ import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import main.java.login_register.Event;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
 import org.opencv.highgui.Highgui;
@@ -28,8 +29,13 @@ public class ComputerCamera extends javax.swing.JFrame {
     /**
      * Creates new form ComputerCamera
      */
+    private Event event;
     public ComputerCamera() {
         initComponents();
+    }
+    
+    public void setEventLogin(Event event){
+        this.event=event;
     }
     
     private DaemonThread myThread = null;
@@ -83,83 +89,78 @@ public class ComputerCamera extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         display = new javax.swing.JLabel();
-        CaptureButton = new javax.swing.JButton();
-        StartButton = new javax.swing.JButton();
-        StopButton = new javax.swing.JButton();
+        StartButton = new main.java.components.Button();
+        CaptureButton = new main.java.components.Button();
+        StopButton = new main.java.components.Button();
+        button1 = new main.java.components.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 0));
+        jPanel1.setBackground(new java.awt.Color(79, 67, 67));
+        jPanel1.setLayout(null);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(display, javax.swing.GroupLayout.DEFAULT_SIZE, 777, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(display, javax.swing.GroupLayout.PREFERRED_SIZE, 854, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(display, javax.swing.GroupLayout.DEFAULT_SIZE, 364, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(display, javax.swing.GroupLayout.PREFERRED_SIZE, 527, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
-        CaptureButton.setBackground(new java.awt.Color(204, 204, 204));
-        CaptureButton.setText("Capture");
-        CaptureButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CaptureButtonActionPerformed(evt);
-            }
-        });
+        jPanel1.add(jPanel2);
+        jPanel2.setBounds(97, 41, 866, 539);
 
-        StartButton.setBackground(new java.awt.Color(0, 255, 0));
-        StartButton.setText("Start");
+        StartButton.setBackground(new java.awt.Color(102, 255, 102));
+        StartButton.setPreferredSize(new java.awt.Dimension(86, 86));
         StartButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 StartButtonActionPerformed(evt);
             }
         });
+        jPanel1.add(StartButton);
+        StartButton.setBounds(250, 600, 190, 50);
+
+        CaptureButton.setBackground(new java.awt.Color(102, 102, 102));
+        CaptureButton.setForeground(new java.awt.Color(153, 153, 153));
+        CaptureButton.setText("O");
+        CaptureButton.setFont(new java.awt.Font("Tw Cen MT", 1, 60)); // NOI18N
+        CaptureButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CaptureButtonActionPerformed(evt);
+            }
+        });
+        jPanel1.add(CaptureButton);
+        CaptureButton.setBounds(480, 590, 70, 70);
 
         StopButton.setBackground(new java.awt.Color(255, 51, 51));
-        StopButton.setText("Stop");
         StopButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 StopButtonActionPerformed(evt);
             }
         });
+        jPanel1.add(StopButton);
+        StopButton.setBounds(590, 600, 190, 50);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(7, 7, 7)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(StartButton)
-                            .addComponent(StopButton))
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(224, 224, 224)
-                        .addComponent(CaptureButton, javax.swing.GroupLayout.PREFERRED_SIZE, 481, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(84, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(41, 41, 41)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(57, 57, 57)
-                        .addComponent(StartButton, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(StopButton, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(CaptureButton, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
-        );
+        button1.setBackground(new java.awt.Color(51, 102, 255));
+        button1.setForeground(new java.awt.Color(255, 255, 255));
+        button1.setText("Logout");
+        button1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        button1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(button1);
+        button1.setBounds(1090, 40, 110, 40);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -176,42 +177,12 @@ public class ComputerCamera extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void StartButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartButtonActionPerformed
-        webSource= new VideoCapture (0);
-        myThread = new DaemonThread (display);
-        Thread t = new Thread (myThread);
-        t.setDaemon (true);
-        myThread.runnable = true;
-        t.start();
-        StartButton.setEnabled(false);
-        StopButton.setEnabled(true);
-        CaptureButton.setEnabled(true);
-    }//GEN-LAST:event_StartButtonActionPerformed
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
+        event.loggedOut();
+    }//GEN-LAST:event_button1ActionPerformed
 
-    private void stopWebCam(){
-        if (myThread != null){
-            if (myThread.runnable == true){
-                myThread.runnable = false;
-                webSource.release();
-            }
-        }
-    }
-    
-    private void StopButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StopButtonActionPerformed
-        stopWebCam();
-        StartButton.setEnabled(true);
-        StopButton.setEnabled(false);
-        CaptureButton.setEnabled(false);
-    }//GEN-LAST:event_StopButtonActionPerformed
-
-    private static File getImageFile;
-    private static final SecureRandom rand = new SecureRandom();
-    private static String imageFileName = null;
-    
-    
-    
-    
     private void CaptureButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CaptureButtonActionPerformed
+        // TODO add your handling code here:
         int option = JOptionPane.showConfirmDialog(rootPane, "Are you sure you want to capture an image?");
         if (option == 0) {
             CaptureButton.setEnabled(false);
@@ -235,10 +206,45 @@ public class ComputerCamera extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, e, "Warning", 0);
             }
         }
-            
-            
     }//GEN-LAST:event_CaptureButtonActionPerformed
 
+    private void StartButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartButtonActionPerformed
+        // TODO add your handling code here:
+        webSource= new VideoCapture (0);
+        myThread = new DaemonThread (display);
+        Thread t = new Thread (myThread);
+        t.setDaemon (true);
+        myThread.runnable = true;
+        t.start();
+        StartButton.setEnabled(false);
+        StopButton.setEnabled(true);
+        CaptureButton.setEnabled(true);
+    }//GEN-LAST:event_StartButtonActionPerformed
+
+    private void StopButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StopButtonActionPerformed
+        // TODO add your handling code here:
+        stopWebCam();
+        StartButton.setEnabled(true);
+        StopButton.setEnabled(false);
+        CaptureButton.setEnabled(false);
+    }//GEN-LAST:event_StopButtonActionPerformed
+
+    private void stopWebCam(){
+        if (myThread != null){
+            if (myThread.runnable == true){
+                myThread.runnable = false;
+                webSource.release();
+            }
+        }
+    }
+    
+    private static File getImageFile;
+    private static final SecureRandom rand = new SecureRandom();
+    private static String imageFileName = null;
+    
+    
+    
+    
     
     private void setWebcamCapturedImageOnLabel (JLabel image) {
         try {
@@ -294,9 +300,10 @@ public class ComputerCamera extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton CaptureButton;
-    private javax.swing.JButton StartButton;
-    private javax.swing.JButton StopButton;
+    private main.java.components.Button CaptureButton;
+    private main.java.components.Button StartButton;
+    private main.java.components.Button StopButton;
+    private main.java.components.Button button1;
     private javax.swing.JLabel display;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
