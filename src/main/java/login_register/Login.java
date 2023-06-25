@@ -1,13 +1,16 @@
 package main.java.login_register;
 
 import main.java.components.Panel; 
-
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import javax.swing.JOptionPane;
 /**
  *
  * @author larry
  */
 public class Login extends Panel{
-
+    
     private Event event;
     
     public Login() {
@@ -101,11 +104,36 @@ public class Login extends Panel{
     }//GEN-LAST:event_passwordField1ActionPerformed
 
     private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
+        String username = textField1.getText();
+        char[] passwordChars = passwordField1.getPassword();
+        String password = new String(passwordChars);
+        
         if (getAlpha() == 0){
-            event.loggedIn();
+            if(login(username,password)){
+                event.loggedIn();
+            } else{
+                 JOptionPane.showMessageDialog(this, "Invalid username or password!", "Error", JOptionPane.ERROR_MESSAGE);
+            }
+            
         }
     }//GEN-LAST:event_button3ActionPerformed
 
+    private boolean login(String username, String password) {
+    try (BufferedReader reader = new BufferedReader(new FileReader("src\\main\\java\\users.txt"))) {
+        String line;
+        while ((line = reader.readLine()) != null) {
+            String[] userData = line.split(",");
+            String existingUsername = userData[1];
+            String existingPassword = userData[3];
+            if (existingUsername.equals(username) && existingPassword.equals(password)) {
+                return true;
+            }
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+    return false;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private main.java.components.Button button3;

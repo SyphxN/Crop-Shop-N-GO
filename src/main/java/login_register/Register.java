@@ -1,18 +1,22 @@
- package main.java.login_register;
+package main.java.login_register;
 
+
+import java.io.*;
 import main.java.components.Panel;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author larry
  */
 public class Register extends Panel{
-
+    
   
     public Register() {
         initComponents();
+        
     }
-
+    
  
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -76,6 +80,16 @@ public class Register extends Panel{
         button3.setText("SIGN UP");
         button3.setToolTipText("SIGN UP");
         button3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        button3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                button3MouseClicked(evt);
+            }
+        });
+        button3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -128,6 +142,55 @@ public class Register extends Panel{
     private void passwordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_passwordField1ActionPerformed
+    
+    private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
+        // TODO add your handling code here:
+
+       if(evt.getSource()==button3){
+           String username = textField2.getText();
+            String email = textField3.getText();
+            String name = textField1.getText();
+            char[] passwordChars = passwordField1.getPassword();
+            String password = new String(passwordChars);
+
+           
+          if (register(name, username, email, password)) {
+        JOptionPane.showMessageDialog(this, "Registration successful!", "Success", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+        JOptionPane.showMessageDialog(this, "Username already exists!", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+           
+       }
+    }//GEN-LAST:event_button3ActionPerformed
+    
+    private boolean register(String name, String username, String email, String password) {
+    try (BufferedReader reader = new BufferedReader(new FileReader("users.txt"))) {
+        String line;
+        while ((line = reader.readLine()) != null) {
+            String[] userData = line.split(",");
+            String existingUsername = userData[1];
+            if (existingUsername.equals(username)) {
+                return false; // Username already exists
+            }
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+        return false;
+    }
+
+    try (BufferedWriter writer = new BufferedWriter(new FileWriter("src\\main\\java\\users.txt", true))) {
+        writer.write(name + "," + username + "," + email + "," + password);
+        writer.newLine();
+    } catch (IOException e) {
+        e.printStackTrace();
+        return false;
+    }
+
+    return true; // Registration successful
+    }
+    private void button3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button3MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_button3MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
