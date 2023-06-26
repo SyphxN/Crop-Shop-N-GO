@@ -2,6 +2,7 @@
 package main.java;
 
 import ComputerCamera.ComputerCamera;
+import javax.swing.JFrame;
 import main.java.login_register.Event;
 
 /**
@@ -13,7 +14,7 @@ public class Main extends javax.swing.JFrame {
     private ComputerCamera camera;
     
     public Main() {
-        
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
         initComponents();
         camera = new ComputerCamera();
         Event event=new Event(){

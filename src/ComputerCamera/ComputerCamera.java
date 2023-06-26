@@ -13,6 +13,7 @@ import java.security.SecureRandom;
 import java.util.ArrayList;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import main.java.SerpAPI;
@@ -37,6 +38,7 @@ public class ComputerCamera extends javax.swing.JFrame {
     
     public ComputerCamera() {
         initComponents();
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
     
     public void setEventLogin(Event event){
@@ -99,6 +101,7 @@ public class ComputerCamera extends javax.swing.JFrame {
         StopButton = new main.java.components.Button();
         button1 = new main.java.components.Button();
         button2 = new main.java.components.Button();
+        button3 = new main.java.components.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -167,7 +170,7 @@ public class ComputerCamera extends javax.swing.JFrame {
             }
         });
         jPanel1.add(button1);
-        button1.setBounds(1090, 40, 110, 40);
+        button1.setBounds(1380, 30, 110, 40);
 
         button2.setText("Results");
         button2.setFont(new java.awt.Font("SansSerif", 1, 24)); // NOI18N
@@ -179,11 +182,26 @@ public class ComputerCamera extends javax.swing.JFrame {
         jPanel1.add(button2);
         button2.setBounds(1110, 280, 270, 130);
 
+        button3.setBackground(new java.awt.Color(0, 153, 255));
+        button3.setForeground(new java.awt.Color(204, 204, 255));
+        button3.setText("Instructions");
+        button3.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        button3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(button3);
+        button3.setBounds(270, 740, 1020, 40);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(81, 81, 81))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -257,6 +275,13 @@ public class ComputerCamera extends javax.swing.JFrame {
         
     }//GEN-LAST:event_button2ActionPerformed
 
+    private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
+        // TODO add your handling code here:
+        String message = "1. Press the green button to start the camera\n2. Using the grey button, take a picture of the item you wish to search for\n3. Wait for 1 to 2 seconds and press results to see where you can buy the item\nHave fun shopping!";
+        JOptionPane.showMessageDialog(this, message, "Instructions", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_button3ActionPerformed
+
+    
     private void stopWebCam(){
         if (myThread != null){
             if (myThread.runnable == true){
@@ -333,6 +358,7 @@ public class ComputerCamera extends javax.swing.JFrame {
     private main.java.components.Button StopButton;
     private main.java.components.Button button1;
     private main.java.components.Button button2;
+    private main.java.components.Button button3;
     private javax.swing.JLabel display;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

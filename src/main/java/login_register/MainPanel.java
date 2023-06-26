@@ -60,6 +60,7 @@ public class MainPanel extends javax.swing.JPanel {
 
     private void init() {
         setBackground(mainColor);
+        
         layout = new MigLayout("fill", "fill", "fill");
         setLayout(layout);
         register = new Register();

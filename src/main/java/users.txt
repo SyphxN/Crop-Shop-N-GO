@@ -3,3 +3,4 @@ Larry Wang,larry,lwang20@ocdsb.ca,larry123
 Sidharth Sajan,sidthekid,s@ocdsb.ca,sid123
 sid,sidthekid,s@ocdsb.ca,sid123
 ad,add,a,a
+Tony,tony123,wtongyu@hotmail.com,wty123
