@@ -57,7 +57,7 @@ public class Main extends javax.swing.JFrame {
 
    
     public static void main(String[] args) {
-        SerpAPI.search("https://fanatics.frgimages.com/new-york-yankees/mens-new-era-black-new-york-yankees-team-logo-59fifty-fitted-hat_pi4733000_ff_4733474-dce6347d1e60d489ea20_full.jpg?_hv=2&w=600");
+//        SerpAPI.search(url);
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {

@@ -13,7 +13,7 @@ def get_image_https_url(image_path, client_id, client_secret):
     response = requests.get(image_url)
     return response.url
 
-image_path = "Pictures\\141547411.jpg"
+image_path = "Pictures\\image.jpg"
 client_id = '99af53b8d23f490'
 client_secret = '40320906edb92b3e38ee7f5a2843362b12607ec2'
 https_url = get_image_https_url(image_path, client_id, client_secret)

@@ -20,7 +20,6 @@ public class DisplayResults extends JFrame {
 
     private void initializeUI(ArrayList<ArrayList<String>> data) {
         setTitle("JSON Table");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 600);
         getContentPane().setBackground(new Color(240, 240, 240)); // Set background color
 
