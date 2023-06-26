@@ -111,6 +111,8 @@ public class Login extends Panel{
         if (getAlpha() == 0){
             if(login(username,password)){
                 event.loggedIn();
+                textField1.setText("");
+                passwordField1.setText("");
             } else{
                  JOptionPane.showMessageDialog(this, "Invalid username or password!", "Error", JOptionPane.ERROR_MESSAGE);
             }

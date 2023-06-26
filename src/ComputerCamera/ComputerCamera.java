@@ -31,6 +31,7 @@ public class ComputerCamera extends javax.swing.JFrame {
      */
     private Event event;
     public ComputerCamera() {
+        setExtendedState(MAXIMIZED_BOTH);
         initComponents();
     }
     
@@ -97,6 +98,7 @@ public class ComputerCamera extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(79, 67, 67));
+        jPanel1.setMinimumSize(new java.awt.Dimension(32767, 32767));
         jPanel1.setLayout(null);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

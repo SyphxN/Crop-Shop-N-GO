@@ -13,6 +13,7 @@ public class Main extends javax.swing.JFrame {
     private ComputerCamera camera;
     
     public Main() {
+        
         initComponents();
         camera = new ComputerCamera();
         Event event=new Event(){
@@ -43,6 +44,9 @@ public class Main extends javax.swing.JFrame {
         mainPanel1 = new main.java.login_register.MainPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        mainPanel1.setMinimumSize(new java.awt.Dimension(32767, 32767));
+        mainPanel1.setPreferredSize(new java.awt.Dimension(32767, 32767));
         getContentPane().add(mainPanel1, java.awt.BorderLayout.CENTER);
 
         getAccessibleContext().setAccessibleDescription("");
@@ -53,7 +57,7 @@ public class Main extends javax.swing.JFrame {
 
    
     public static void main(String[] args) {
-        //SerpAPI.search(url);
+        SerpAPI.search("https://fanatics.frgimages.com/new-york-yankees/mens-new-era-black-new-york-yankees-team-logo-59fifty-fitted-hat_pi4733000_ff_4733474-dce6347d1e60d489ea20_full.jpg?_hv=2&w=600");
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {

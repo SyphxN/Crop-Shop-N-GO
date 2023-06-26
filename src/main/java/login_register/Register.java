@@ -156,6 +156,10 @@ public class Register extends Panel{
            
           if (register(name, username, email, password)) {
         JOptionPane.showMessageDialog(this, "Registration successful!", "Success", JOptionPane.INFORMATION_MESSAGE);
+        textField1.setText("");
+        textField2.setText("");
+        textField3.setText("");
+        passwordField1.setText("");
         } else {
         JOptionPane.showMessageDialog(this, "Username already exists!", "Error", JOptionPane.ERROR_MESSAGE);
         }
