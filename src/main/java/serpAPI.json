@@ -1,471 +1,231 @@
 {
     "search_metadata": {
-        "id": "649902f537b24a42d5d8b1a1",
+        "id": "64990824d5a531227f1dd5fb",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/d6a7280cf7a6dfdd/649902f537b24a42d5d8b1a1.json",
-        "created_at": "2023-06-26 03:16:05 UTC",
-        "processed_at": "2023-06-26 03:16:05 UTC",
-        "google_lens_url": "https://lens.google.com/uploadbyurl?url=https://i.imgur.com/vqyboAB.jpeg",
-        "raw_html_file": "https://serpapi.com/searches/d6a7280cf7a6dfdd/649902f537b24a42d5d8b1a1.html",
-        "prettify_html_file": "https://serpapi.com/searches/d6a7280cf7a6dfdd/649902f537b24a42d5d8b1a1.prettify",
-        "total_time_taken": 2.52
+        "json_endpoint": "https://serpapi.com/searches/1ce678040d3abfe5/64990824d5a531227f1dd5fb.json",
+        "created_at": "2023-06-26 03:38:12 UTC",
+        "processed_at": "2023-06-26 03:38:12 UTC",
+        "google_lens_url": "https://lens.google.com/uploadbyurl?url=https://i.imgur.com/eri6kTN.jpeg",
+        "raw_html_file": "https://serpapi.com/searches/1ce678040d3abfe5/64990824d5a531227f1dd5fb.html",
+        "prettify_html_file": "https://serpapi.com/searches/1ce678040d3abfe5/64990824d5a531227f1dd5fb.prettify",
+        "total_time_taken": 2.32
     },
     "search_parameters": {
         "engine": "google_lens",
-        "url": "https://i.imgur.com/vqyboAB.jpeg"
+        "url": "https://i.imgur.com/eri6kTN.jpeg"
     },
+    "knowledge_graph": [
+        {
+            "title": "Simplicity Harry Potter Iron On Patch",
+            "subtitle": "Appliqu\u00e9",
+            "link": "https://www.google.com/search?q=Simplicity+Harry+Potter+Iron+On+Patch&kgmid=/g/11sblltcv6&hl=en-US&gl=US",
+            "more_images": {
+                "link": "https://www.google.com/search?q=Simplicity+Harry+Potter+Iron+On+Patch&kgmid=/g/11sblltcv6&ved=0EOTpBwgAKAAwAA&source=.lens.button&tbm=isch&hl=en-US&gl=US",
+                "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=US&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11sblltcv6&q=Simplicity+Harry+Potter+Iron+On+Patch&tbm=isch"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSycvrQGhrPKpdZPnlB-JJfe6-couC3yk-6ZkoXjOnxZPXA3B3E",
+            "images": [
+                {
+                    "title": "Image #1 for Simplicity Harry Potter Iron On Patch",
+                    "source": "https://www.amazon.com/Simplicity-1932159001-Gryffindor-Applique-Clothing/dp/B07PKF1H9R",
+                    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSycvrQGhrPKpdZPnlB-JJfe6-couC3yk-6ZkoXjOnxZPXA3B3E",
+                    "size": {
+                        "width": 200,
+                        "height": 200
+                    }
+                },
+                {
+                    "title": "Image #2 for Simplicity Harry Potter Iron On Patch",
+                    "source": "http://t2.gstatic.com/images?q=tbn:ANd9GcRzC0hM0SSPYWjpKBqWxJJe4v6G9yUpvgyFhxhUoa7iXATuIp4-",
+                    "link": "https://t2.gstatic.com/images?q=tbn:ANd9GcR1Ky5Ok67rfLOVqAd0FO_WEK9qWjZ33uou8omJlOD5QSP8Qfbn",
+                    "size": {
+                        "width": 1800,
+                        "height": 2400
+                    }
+                },
+                {
+                    "title": "Image #3 for Simplicity Harry Potter Iron On Patch",
+                    "source": "http://t0.gstatic.com/images?q=tbn:ANd9GcRrp2dHrMTY1PSKLeSfGfaoLaoxRuZ3DoWQbMEXdEXE7WOYGQfD",
+                    "link": "https://t0.gstatic.com/images?q=tbn:ANd9GcQ7N_foM6ZrHijNpUaX6s8PgKHhav5TwepY2GDRKKWcvt2Q4BPi",
+                    "size": {
+                        "width": 1600,
+                        "height": 1600
+                    }
+                },
+                {
+                    "title": "Image #4 for Simplicity Harry Potter Iron On Patch",
+                    "source": "http://t2.gstatic.com/images?q=tbn:ANd9GcS7rp_tYuCXjKfbvh4V8avbTlXvNE2EoFlXaTwv7cwv1btUj0qX",
+                    "link": "https://t2.gstatic.com/images?q=tbn:ANd9GcQveSBlpOSBmB3gAORcEP9F4vNnhvq1w6LiX6HLj0OJPim4dYNq",
+                    "size": {
+                        "width": 1600,
+                        "height": 1600
+                    }
+                },
+                {
+                    "title": "Image #5 for Simplicity Harry Potter Iron On Patch",
+                    "source": "http://t3.gstatic.com/images?q=tbn:ANd9GcTYsbHtczM1T3GdJ27Rxepfe_vJqzJu33QKSoMez2LEDWzjTouL",
+                    "link": "https://t3.gstatic.com/images?q=tbn:ANd9GcRzvio21iQRGJpXczzwnnAjXU9aLfofCGd8NO5D1s1lw2Hds8mU",
+                    "size": {
+                        "width": 1800,
+                        "height": 2400
+                    }
+                },
+                {
+                    "title": "Image #6 for Simplicity Harry Potter Iron On Patch",
+                    "source": "http://t3.gstatic.com/images?q=tbn:ANd9GcSies7rfVnCxkM4JhudpfVkRQoJ3lDsqL6gzDKYVkswNDur36IP",
+                    "link": "https://t3.gstatic.com/images?q=tbn:ANd9GcTZMSLQAYhWh6ZZPG86UWFCsGZqxIeLEhpT2Zi4xdJATYt2n3rd",
+                    "size": {
+                        "width": 2063,
+                        "height": 1771
+                    }
+                }
+            ]
+        },
+        {
+            "title": "TOPPATCH Gryffindor House Ravenclaw Hogwarts Embroidered Hook and Loop Patch Green",
+            "link": "https://www.google.com/search?q=TOPPATCH+Gryffindor+House+Ravenclaw+Hogwarts+Embroidered+Hook+and+Loop+Patch+Green&kgmid=/g/11k3qnmmfk&hl=en-US&gl=US",
+            "more_images": {
+                "link": "https://www.google.com/search?q=TOPPATCH+Gryffindor+House+Ravenclaw+Hogwarts+Embroidered+Hook+and+Loop+Patch+Green&kgmid=/g/11k3qnmmfk&ved=0EOTpBwgAKAAwAA&source=.lens.button&tbm=isch&hl=en-US&gl=US",
+                "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=US&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11k3qnmmfk&q=TOPPATCH+Gryffindor+House+Ravenclaw+Hogwarts+Embroidered+Hook+and+Loop+Patch+Green&tbm=isch"
+            },
+            "thumbnail": "https://t0.gstatic.com/images?q=tbn:ANd9GcQQPNulljaRiSMTZ3RGytaH1GETJ98ptNf80g1QAic6gK_8SLm1",
+            "images": [
+                {
+                    "title": "Image for TOPPATCH Gryffindor House Ravenclaw Hogwarts Embroidered Hook and Loop Patch Green",
+                    "source": "https://www.google.com/search?q=TOPPATCH+Gryffindor+House+Ravenclaw+Hogwarts+Embroidered+Hook+and+Loop+Patch+Green&kgmid=/g/11k3qnmmfk&hl=en-US&gl=US",
+                    "link": "https://t0.gstatic.com/images?q=tbn:ANd9GcQQPNulljaRiSMTZ3RGytaH1GETJ98ptNf80g1QAic6gK_8SLm1",
+                    "size": {
+                        "width": 1000,
+                        "height": 1000
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Harry Potter Gryffindor Crest Patch",
+            "link": "https://www.google.com/search?q=Harry+Potter+Gryffindor+Crest+Patch&kgmid=/g/11jz2vm0bk&hl=en-US&gl=US",
+            "more_images": {
+                "link": "https://www.google.com/search?q=Harry+Potter+Gryffindor+Crest+Patch&kgmid=/g/11jz2vm0bk&ved=0EOTpBwgAKAAwAA&source=.lens.button&tbm=isch&hl=en-US&gl=US",
+                "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=US&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11jz2vm0bk&q=Harry+Potter+Gryffindor+Crest+Patch&tbm=isch"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqIXIIqTwJXoMR4LlPPEbXo-wNJZ3I6hMY1MCEZVQC9PmF_8t-",
+            "images": [
+                {
+                    "title": "Image #1 for Harry Potter Gryffindor Crest Patch",
+                    "source": "https://cdn.shoplightspeed.com/shops/610403/files/27668035/262x276x1/ata-boy-harry-potter-gryffindor-crest-patch.jpg",
+                    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqIXIIqTwJXoMR4LlPPEbXo-wNJZ3I6hMY1MCEZVQC9PmF_8t-",
+                    "size": {
+                        "width": 262,
+                        "height": 276
+                    }
+                },
+                {
+                    "title": "Image #2 for Harry Potter Gryffindor Crest Patch",
+                    "source": "http://t0.gstatic.com/images?q=tbn:ANd9GcQUWs1S8ayplbaM-fKARMXJHc96NB2HnokLb56MmsBpuF8qRgfq",
+                    "link": "https://t0.gstatic.com/images?q=tbn:ANd9GcSdldQuypC6OZJGyXx2WCN46MAQEwh0Fq8bxcQw9k0nBv8Q6VY6",
+                    "size": {
+                        "width": 1261,
+                        "height": 1536
+                    }
+                },
+                {
+                    "title": "Image #3 for Harry Potter Gryffindor Crest Patch",
+                    "source": "https://cdn02.plentymarkets.com/5rtbqcd0flq3/item/images/68021668/middle/Patch-Harry-Potter---Gryffindor-Wappen.jpg",
+                    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjv4oNO5W5jLfdeUT8hWnE2DS3QJFAoHY4-jJKD_iCCDc06acJ",
+                    "size": {
+                        "width": 522,
+                        "height": 522
+                    }
+                }
+            ]
+        }
+    ],
     "visual_matches": [
         {
             "position": 1,
-            "title": "New Era 59Fifty MLB Basic Team New York Yankees Kids 59Fifty Fitted Hat Size 6.5",
-            "link": "https://www.ebay.com/itm/284649036460",
+            "title": "Magnet - Harry Potter - GRYFFINDOR Coat of Arms - Used but still in good shape",
+            "link": "https://www.ebay.com/itm/224586814205",
             "source": "ebay.com",
             "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
             "price": {
-                "value": "$22.99*",
-                "extracted_value": 22.99,
+                "value": "$5.00*",
+                "extracted_value": 5.0,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSdoY2f3A_1F0_NPA-0HjLsX-GeA7RXNqIsaaCS5tCThVIDUgPf"
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBGk5dI1RdFCYI_4L9qiSqPX2KyK0iYnB5OvZtXTL1oBssHlEe"
         },
         {
             "position": 2,
-            "title": "New York cap",
-            "link": "https://poshmark.com/listing/New-York-cap-60ee77e22f3d198723445f38",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$35.00",
-                "extracted_value": 35.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJRClqnGTk_BksA9mrOrTsKsTENrWbjnIqOtUjhrld0beB6m95"
-        },
-        {
-            "position": 3,
-            "title": "Vintage York Yankees Hat Cap Blue White Strap Back Trucker Baseball",
-            "link": "https://www.ebay.com/itm/175761168229?chn=ps&mkevt=1&mkcid=28",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$18.75*",
-                "extracted_value": 18.75,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q4l-vsvjbpw9Cur5zE7O9aOAyItCEnukuSmx5hQcew4YCnFF"
-        },
-        {
-            "position": 4,
-            "title": "OC Sports boys Baseball",
-            "link": "https://www.amazon.com/OC-Sports-boys-Baseball/dp/B09J3BTCY7",
+            "title": "Simplicity Harry Potter Gryffindor Iron On Applique Patch for Clothes, Backpacks, and Accessories, 3.5\" W x 4.25\" L, Multicolor",
+            "link": "https://www.amazon.com/Simplicity-Gryffindor-Backpacks-Accessories-Multicolor/dp/B09NP87FZ1",
             "source": "amazon.com",
             "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
             "price": {
-                "value": "$18.03*",
-                "extracted_value": 18.03,
+                "value": "$5.99*",
+                "extracted_value": 5.99,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUZh1eWUdKNHnNj0uwt_uxQw4UN98LKk3TBB-MKFk-Ri-joYmn"
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStmLCWn1WT6fPpDX1k1mBPuCQMHbCXUOdxVNR7QWI1zdch12gu"
+        },
+        {
+            "position": 3,
+            "title": "Harry Potter: House of GRYFFINDOR - Full Size Iron On Patch",
+            "link": "https://www.doctorwhostore.com/harry-potter-house-of-gryffindor-full-size-iron-on-patch/",
+            "source": "doctorwhostore.com",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcSCx0HuCTGcWPajoWFTTL3ZbQl2MQ0YJvda8OG5jjfTvKEaM-j3xc7RjxAgNzrYhbGRsItUzwMmRL8AhlcOs5JPKwbMeebMO8LQkQ5Y5h5a2jVmGzuJgCkcU70n",
+            "price": {
+                "value": "$4.99",
+                "extracted_value": 4.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSTThN7CGrrSqTtEJoI0d9fUqnKew-GGc-giFywAbzchmLtGzpT"
+        },
+        {
+            "position": 4,
+            "title": "Harry Potter Gryffindor Crest Embroidered Iron On Patch From Universal",
+            "link": "https://www.ebay.com/itm/324645373037",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$10.99*",
+                "extracted_value": 10.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLQXCe4LWAs2kwrvuxZ542YLakZcVuXy4qDTFIJXxNjU78ftW"
         },
         {
             "position": 5,
-            "title": "New Era Accessories | New York Yankees Cap | Color: Blue/White | Size: 7 1/8 | Magicfan5601's Closet",
-            "link": "https://poshmark.com/listing/New-York-Yankees-cap-6071bef28da5c9946330d999",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$34.00*",
-                "extracted_value": 34.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRevnEXXbiED2S_9hAUNIHR3n7p5MYXTDfytco0_YAilUpeIB-2"
+            "title": "Amazon.com: Simplicity Harry Potter Gryffindor House Emblem Applique Clothing Iron On Patch, 3.5'' x 4.35",
+            "link": "https://www.amazon.com/Simplicity-1932159001-Gryffindor-Applique-Clothing/dp/B07PKF1H9R",
+            "source": "amazon.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSycvrQGhrPKpdZPnlB-JJfe6-couC3yk-6ZkoXjOnxZPXA3B3E"
         },
         {
             "position": 6,
-            "title": "New Era Other | Yankees 1927 World Champion Fitted | Color: Black/Blue | Size: 7 1/4 Or 57.7cm | Steve262's Closet",
-            "link": "https://poshmark.com/listing/Yankees-1927-world-champion-fitted-63eee4af8d7a3ce151451704",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$40.00*",
-                "extracted_value": 40.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRqBHWujpshyiLZVNSliaUXCPaFzHwNLapcFe0DIo1sYuEoEFC"
+            "title": "Amazon.com: Simplicity Harry Potter Slytherin Iron On Applique Patch for Clothes, Backpacks, and Accessories, 3.5\" W x 4.125\" L, Multicolor",
+            "link": "https://www.amazon.com/Simplicity-Slytherin-Backpacks-Accessories-Multicolor/dp/B09NP5B4GF",
+            "source": "amazon.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQ4Hw3gws8EM_D-95K2gM5Trbn6Ma-4ZcRUXA3TFXTj4gniAcY"
         },
         {
             "position": 7,
-            "title": "Whitey Ford #16 Signed Authentic New York Yankees Game Model Baseball Hat JSA",
-            "link": "https://www.steinersports.com/baseball/new-york-yankees/whitey-ford-number-16-signed-authentic-new-york-yankees-game-model-baseball-hat-jsa/o-2365+t-36113276+p-677048991902+z-9-234788466",
-            "source": "steinersports.com",
-            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTij2abN5pB5hXq5PjvW8E00Air95yn9vWRalJtrUdVzPoZ4xRar4gn4kztX7lMpmLhKQqVbsm90PtDkhnuEvvBWAAzomPyvCf8303qQf-aEkCYiVQ95s3vArA",
+            "title": "Universal Studios Wizarding World of Harry Potter Gryffindor Iron On Patch",
+            "link": "https://www.ebay.com/itm/125118848198",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
             "price": {
-                "value": "$264.99*",
-                "extracted_value": 264.99,
+                "value": "$5.95*",
+                "extracted_value": 5.95,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMfbri9D08yPmMRV1nDf4DUhWDEDRHGSwUURC4o4yvbo9yBJ8"
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTt4Fu8u6pYpwbxgjJYYvUwCATqLDPIuMn_tESnx7pDi9yM2i"
         },
         {
             "position": 8,
-            "title": "Black New York Yankees 7 3/8 Fitted MLB Cap Hat (C12)",
-            "link": "https://www.ebay.com/itm/304669257776",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$12.75*",
-                "extracted_value": 12.75,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYb-5MoL8QZh7UVKX-LR9MPehep6h-7X1OqYMl4r6ZQbhM6pv9"
-        },
-        {
-            "position": 9,
-            "title": "New York Yankees 47 Brand Baseball Hat",
-            "link": "https://sidelineswap.com/gear/apparel/hats/6260672-47-brand-new-york-yankees-baseball-hat",
-            "source": "sidelineswap.com",
-            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTLTOiR2JtNyWuuCAqrEQe2eeccl8MO-5_0YFkf34oJ-35FEml795bQBNxgkJZGN6T-2SmkQs5OaPrTveeY_lEdYrqNRhET9QxUERZzgej3mE-CmnIH",
-            "price": {
-                "value": "$25.00*",
-                "extracted_value": 25.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaPdegfzpQZgfuTjJGu_nnZ4UOU_eg6tRekzegAT4n1BRiCP1"
-        },
-        {
-            "position": 10,
-            "title": "New York Yankees Adjustable Hat | eBay",
-            "link": "https://www.ebay.com/itm/284426250648",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpscF9a2dtmtFsnH4fILXnLZ7jyUPgnqxqR3HS9tDhIzumvnPo"
-        },
-        {
-            "position": 11,
-            "title": "Navy Blue Fitted Ny Hat in Black, Men's (Size 34)",
-            "link": "https://www.grailed.com/listings/44876013-hat-x-new-era-x-streetwear-navy-blue-fitted-ny-hat",
-            "source": "grailed.com",
-            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTQYvuGkI8wl9Ny5JlnS4nJue2SrMc-Pevx00TirwNfZ08PRlbtmdpywtjlu8zmyhK2u1GD-UlDZTXRjse8YNf2M3HDRO4bd_T6PMQr20tg-YJ72ys",
-            "price": {
-                "value": "$45.00*",
-                "extracted_value": 45.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYdnC6RlJfw6gGSyVmR_v7ZH5RPsV6Yy5nJIFMtxvOtENEw3mN"
-        },
-        {
-            "position": 12,
-            "title": "Kith x New Era black York Yankees Fitted Hat",
-            "link": "https://www.therealreal.com/products/men/accessories/hats/kith-x-new-era-new-york-yankees-fitted-hat-h71n6",
-            "source": "therealreal.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcQXI5E158FTEOKLAhG0l_WZ_AYCKGG4v9LGopncYHuiCLBT9ONBBEguOp0pn2DGqUXgh1nHsvt1eUQc7KllHfE086AUIlLzUFruv1R4JG_JjhS5N5-KCL5F",
-            "price": {
-                "value": "$57.00*",
-                "extracted_value": 57.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_PNt45c3sd0ygDV8kSL5_8zavwTAXYt05-P1ZW8N1qWYWyWk4"
-        },
-        {
-            "position": 13,
-            "title": "New York Yankees Yankee Stadium 50th Anniversary Fitted Hat New Era 59FIFTY MLB",
-            "link": "https://www.ebay.com.my/itm/175757415176?hash=item28ebf55308:g:whgAAOSwMX5kAl9d",
-            "source": "ebay.com.my",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcTJ2jV7jNGHlQepIax-mL_oMAdhV1hbmmRIhNj1Yg3ZVUoAG5VboA48ZJ4gcwVXSk3D9ug9suTpZsU44I9MCZy3hdnRwhNw06FpYTez9qSVnqXRoBo",
-            "price": {
-                "value": "$35.00*",
-                "extracted_value": 35.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmkjauW7AqTkI39cnS_LnHAbF9mz64nY5FhFkdLL4DFETkKYzG"
-        },
-        {
-            "position": 14,
-            "title": "Eric Emanuel EE NE New York Yankees 59Fifty Fitted Hat",
-            "link": "https://deadstocksby.com/products/eric-emanuel-ee-ne-new-york-yankees-59fifty-fitted-hat",
-            "source": "deadstocksby.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTCU9SOe7wiA3DYCJzrehdWq04MIHT2UWLNYwTxgG6N_21NEdmGjQ5NsWb_HJccmOIYtTtyTPpSWe25rZ5qDX5fHq7C4AmcWbjOOIAiv-sGnNDq-x6h",
-            "price": {
-                "value": "$75.00*",
-                "extracted_value": 75.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqdm3JK74H1ke_c6ubJV_xNonv4stX6fKR8-Nz5CihKz53ebzT"
-        },
-        {
-            "position": 15,
-            "title": "47 Brand Yankees '47 Trucker | NY-Navy | One Size Sports Basement",
-            "link": "https://shop.sportsbasement.com/products/yankees-47-trucker",
-            "source": "sportsbasement.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcTlao2VoRKCgzWkaWn8AftxmPipkUy8VSmy7p7Qyk7eLVIUheCm8BJX_ZobPOaYMtT-QUPphjr-iXOJxf-fYJ2-w4wZynOqo2b5mZdung0_G_l2lhfC7_uIcvQBxw",
-            "price": {
-                "value": "$30.00*",
-                "extracted_value": 30.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVaewwRlR8xftP2lY1IsI4wAnII3_PiSFJlB_ZJuCR7MG42_kK"
-        },
-        {
-            "position": 16,
-            "title": "ny la new era hat",
-            "link": "https://www.etsy.com/listing/1160084650/ny-la-new-era-hat",
-            "source": "etsy.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcSBC4oQ3bkBuevoH8XpxAl0ri8XiuLd4I543l3vUizk2p7JnS_Kl1aJTVxs9nt4vEC2m0siqwjI-o3Mysd9TaJqSrdOdkseIKFJA66bIfBIaDs",
-            "price": {
-                "value": "$80.00*",
-                "extracted_value": 80.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTo01yrVw_rk9EuRKxzc-H26Y-oxZpxjUA6SHndscidZkX8-aQY"
-        },
-        {
-            "position": 17,
-            "title": "Fitted New York Yankees Hat",
-            "link": "https://poshmark.com/listing/Fitted-New-York-Yankees-Hat-617c542c9c337856245adedc",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$25.00*",
-                "extracted_value": 25.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTzvPGbPFyIaouTSvJtvPFHTcZB3Y_0GSScmYfLN9KLSjjzhC5T"
-        },
-        {
-            "position": 18,
-            "title": "New York Yankees Melton 9Fifty Black Snapback - New Era cap | Hatstoreworld.com",
-            "link": "https://hatstoreworld.com/new-york-yankees-melton-9fifty-black-snapback-new-era",
-            "source": "hatstoreworld.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcSgONrAHhfwlDfxFMy4Eg7Wik39pkKGI0psN8LJlwlPMVuKtUfeFA3hUDz1ebO_v92SIt9ByXjWav0LsZOLFiyFsc1nF3UZgqbVWzKekUQuBDSH75tjaA",
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcoJ1H3aZ9h1lZh-9TV_XdwIurJdq_NlN9EyjqWKNL-SQ4fOs_"
-        },
-        {
-            "position": 19,
-            "title": "Aime Leon Dore - Authenticated HAT - Wool Khaki Plain for Men, Never Worn",
-            "link": "https://us.vestiairecollective.com/men-accessories/hats-pull-on-hats/aime-leon-dore/khaki-wool-aime-leon-dore-hat-20818141.shtml",
-            "source": "vestiairecollective.com",
-            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcREuzl1-K-L_UWWcExXxa5O8kt_zE71LvjbRdiv1KkfLDGLGEzUzqIY8UvaLKUUbsaiMnLnkzglr5-27IMiIwXx2MYXCOLbjk4B6RgIou8wJpGV7fsdenmY_GmcVPykGw",
-            "price": {
-                "value": "$112.54*",
-                "extracted_value": 112.54,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQTLypahiCe838_7yGBlZGwp-4BVXC4-UELPqRyB1LQtpftA8kQ"
-        },
-        {
-            "position": 20,
-            "title": "Custom New York Yankees \u201cNew York City\u201d Baseball Fitted 8",
-            "link": "https://www.ebay.com/itm/294176441703",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$20.00*",
-                "extracted_value": 20.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3ddoZJc4qdtyWg1CN0CQQ_gB9FTZ5TktzyprDWxPQG4_l7o3p"
-        },
-        {
-            "position": 21,
-            "title": "New York yankees hat, worn out a little bit",
-            "link": "https://poshmark.com/listing/New-York-yankees-hat-worn-out-a-little-bit-6292358660fded6a91c8de87",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$20.00*",
-                "extracted_value": 20.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMXYjjsgsWIQqzSN6UeOs4BSZPbMmF686wl29XKxiO2chQaSP"
-        },
-        {
-            "position": 22,
-            "title": "Accessories | Ny Yankees 201 World Series Baseball Cap | Poshmark",
-            "link": "https://poshmark.com/listing/NY-Yankees-2001-World-Series-Baseball-Cap-5fc1919d81a36ca51164f73c",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSyfw7WNTqNMdKEOdS7Cxr2XhiesEUNvJTEdG9tMozy1cLEVGHy"
-        },
-        {
-            "position": 23,
-            "title": "New Era Accessories | New York Yankees Fitted Hat | Color: Blue | Size: 7 3/8 | Danjok5's Closet",
-            "link": "https://poshmark.com/listing/New-York-Yankees-Fitted-Hat-62659864e609abd0f70b9215",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$28.00*",
-                "extracted_value": 28.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE0X1fpSyO9UYkT85KiGRg4_qV_4FIDd67v8iEYJeJugSWN-V4"
-        },
-        {
-            "position": 24,
-            "title": "Yankees fitted hat with pink brim",
-            "link": "https://poshmark.com/listing/Yankees-fitted-hat-with-pink-brim-61e33ebc7ec30c0208b9b9b6",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$15.00",
-                "extracted_value": 15.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ffJBrcvdyCTRxXnEjH_LmH_7etgAkKmtIT0S5wf8pqw82hGa"
-        },
-        {
-            "position": 25,
-            "title": "Mlb Accessories | New York Yankees Snapback | Color: Blue | Size: Os | Linahmoon's Closet",
-            "link": "https://poshmark.com/listing/New-York-Yankees-SnapBack-6386ca32678c3a367b305192",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$15.00*",
-                "extracted_value": 15.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSS0sfIRTcExIDRkIjoZtyNmqPSSyyisDhLo1f-ddB-iOhubes8"
-        },
-        {
-            "position": 26,
-            "title": "Buy New York Yankees Baseball Cap Baseball Cap NLB Headgear Online in India - Etsy",
-            "link": "https://www.etsy.com/in-en/listing/782422773/new-york-yankees-baseball-cap-baseball",
-            "source": "etsy.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcSBC4oQ3bkBuevoH8XpxAl0ri8XiuLd4I543l3vUizk2p7JnS_Kl1aJTVxs9nt4vEC2m0siqwjI-o3Mysd9TaJqSrdOdkseIKFJA66bIfBIaDs",
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsGTWLrMHHsyB0i1KQrYvzS-POKOdmgA85B7UvX9c7joiTsKR8"
-        },
-        {
-            "position": 27,
-            "title": "New Era Accessories | New Era New York Yankees Embroidered Ny Logo Hat | Color: Black/White | Size: 7 18 | Vasoutherngirl's Closet",
-            "link": "https://poshmark.com/listing/New-Era-New-York-Yankees-Embroidered-NY-logo-hat-62a9f2f62a1eff2c4f1873a9",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$14.00*",
-                "extracted_value": 14.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTahOtnaoL0xQ-ep4zTV1D_eJ_UH72fIJUrPrv5Uc8ccGfJNE21"
-        },
-        {
-            "position": 28,
-            "title": "Unisex New Era Cap, size 34 - 36 cm (Blue) | Emmy",
-            "link": "https://emmystore.com/products/id1462390",
-            "source": "emmystore.com",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcQWYNSN2Vcz4aRI57xVUrQ49j8WYzOEdFZYjE6CYvzJRZkJ7a7kTS5A44emx7eRHA-xjUE_vtiODQbCeu0SVAaAjNXVQURDfD1nbwL4Z-KEJxmc",
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSI9B5kzES2x6lDwUBzGOvV7GdEyTB5bVwR54I76mvnD3ZeNDJy"
-        },
-        {
-            "position": 29,
-            "title": "Classic MVP Snapback Yankees Cap by 47 Brand - 26,95 \u20ac",
-            "link": "https://www.hatshopping.com/Classic-MVP-Snapback-Yankees-Cap-by-47-Brand.html",
-            "source": "hatshopping.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRchXTIJbw1gOhxTi0HQT_DPR7CjWzLsC5j72iZvxUKyYZ271ZGABRZ7d7a3Z5nZeNBG4wEJ67yWjMtCpNq3japgmYtCvh-1jg0rLNzh2KAfZodadthqCeP",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqe6MCA57TK952nJtmkUWbZtiq6SLsZ-V9BmNFbTlgpRVzOKgA"
-        },
-        {
-            "position": 30,
-            "title": "(9) Caps/(24) Baseball cards/pin/sticker:",
-            "link": "https://www.invaluable.com/auction-lot/9-caps-24-baseball-cards-pin-sticker-127-c-2d54facaed",
-            "source": "invaluable.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcQ2BL4K5A23x5XL9bRP0mXm8ofE2d58g5Qu6H9aYyBhP8zEZoE56ZTNNK9mDrLIClK5ASlhNekmheyVdpnbLRDurpDqsg0uDIZmFCr2eZpVjT9i9uD3PFA",
-            "price": {
-                "value": "$20.00*",
-                "extracted_value": 20.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRynJ4KDgkfpU8_v9QPnTx4nIWdTypOq5XgD2IBWymxoI2oHWvr"
-        },
-        {
-            "position": 31,
-            "title": "Whitey Ford Signed Authentic New York Yankees Game Model Hat With JSA COA",
-            "link": "https://showpiecessports.com/products/whitey-ford-signed-authentic-new-york-yankees-game-model-hat-with-jsa-coa",
-            "source": "showpiecessports.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcT-QAcC3omhPBRycwaPefBGTsubAjFruPRTMQaHZdIY1jrdeghkomPsYDxaJrF0WJLBbn_t7Frc007xh-3_fm1kYxlW9bO-788BwZS_PrcUFcX-r-oxSfoXPw",
-            "price": {
-                "value": "$149.00*",
-                "extracted_value": 149.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8QwUv4_G_aurJ3HZLZMcYGDqp3i1a4Pnu4bVIxb_bVaqv9LUk"
-        },
-        {
-            "position": 32,
-            "title": "New Era Yankee \u2022 Tise",
-            "link": "https://tise.com/t/r1yp8BvWr",
-            "source": "tise.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcQxKZ7RB26kZ2N40dIzxDtUWEx4UimNYmrknW_Xphy-9wS21kMUvxkJuD0A0yMidNZTe0IbTEGPhFemZ30pPsg30FZOx8N3V73_Ls1KAg",
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeFRe4nbS1mlbHVircZEj8rTkmABSlgmyu5EoWuEEHA4MHhQze"
-        },
-        {
-            "position": 33,
-            "title": "Lids Derek Jeter New York Yankees Autographed Era Cap | Pueblo Mall",
-            "link": "https://www.shoppueblomall.com/shopnow/product/derek-jeter-new-york-yankees-autographed-era-cap-lids-aaddb0",
-            "source": "shoppueblomall.com",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcTfHeVwbJvPjGmH04ncYVs3YR9PHJbsAzbHbynM8DnpW-PuvXX6QBthAMro-t-K46ISS2THeuGjdge4OseDJpsapMUhZcdLsRa9UavVyJjQFc8SVIOyDjpCC0l2",
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQXyyzOnaq5k_rt2HyprU1AsfTnaATXJwWtOYV2MzaySVfY7qYm"
-        },
-        {
-            "position": 34,
-            "title": "UMPS CARE AUCTION: Joe Torre Signed Yankees Hat - Size 7 1/2 - Not MLB Authenticated",
-            "link": "https://auctions.mlb.com/iSynApp/auctionDisplay.action?sid=1101001&auctionId=2277126",
-            "source": "mlb.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcQGkLH7eT64s3814MqJpF5-mTD5ZC_s7tTGtJwZczkwgqneRBR8FnYlBJF57_r_mXqeZoCMFeE_Okrd0gd143hVnve_cje7qvFAS2N_K9mLBC21SqVO",
-            "price": {
-                "value": "$155.00",
-                "extracted_value": 155.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbLFCyoS_vqnA1w1ym2Ux9EnF8Sv0HjpPRYiJcMGd7g5crYlQs"
-        },
-        {
-            "position": 35,
-            "title": "New Addition-retro crown : r/neweracaps",
-            "link": "https://www.reddit.com/r/neweracaps/comments/b1i8mq/new_additionretro_crown/",
-            "source": "reddit.com",
-            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcRFeJS-IhfJCysoVmCqJ1d-1lzbIHTsbcy4DrBsZJpxQ31zznhym7THnNEKCEnngpvdl4aupEFtEblIPBEMJY7_biy055d40m6TYfVg7CpFOrWOXw",
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR_b1259aDYOKw748fwsMxY_z5Xq_GkxD_Rj8TofyUbLepieEQl"
-        },
-        {
-            "position": 36,
-            "title": "\u2757NY Yankees Hat Baseball Cap Nineteen47 Twins OSFA \u2757, Men's Fashion, Watches & Accessories, Cap & Hats on Carousell",
-            "link": "https://www.carousell.com.my/p/%E2%9D%97ny-yankees-hat-baseball-cap-nineteen47-twins-osfa-%E2%9D%97-1069883216/",
-            "source": "carousell.com.my",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcQSIwzQva0CiW118fxPnE-X3LUYu3hemXJTQQ5g8CxbQtyzju_p9iIhyK4bB3zYdn96_r2qg6ZA7vreuYfSBpUxrDewvF3d0WJzO4ntOSkZwTiIoAivwfOvzw",
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9fakkLSnQ3BY1VBwFeT_53SoanaY6ph8sblKnt-KfniRY8yGD"
-        },
-        {
-            "position": 37,
-            "title": "New Era Cap ( LRG Black/Red size 7 1/4, Brand New), Men's Fashion, Watches & Accessories, Caps & Hats on Carousell",
-            "link": "https://www.carousell.ph/p/new-era-cap-lrg-black-red-size-7-1-4-brand-new-269523942/",
-            "source": "carousell.ph",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcSeKpmrfODnsTKpFXV5vp8nzccEaKeP-pIWyiL-4UGEPhz3jyvsyhInU-qVUp6z4wI5gY4wGEXc5uBmAPZuL-AT3PW6tMEy4PFI6StMn4uQoJn--5lY",
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPkSnUlFRLdZMkggRX_21_2I9Kq7iC_ST_HRLsjzRw0dGfw_J6"
-        },
-        {
-            "position": 38,
-            "title": "New York Yankees Genuine Merchandise Youth Size Hat India | Ubuy",
-            "link": "https://www.ubuy.co.in/product/70ALWD62-new-york-yankees-genuine-merchandise-youth-size-hat-baseball-cap-mlb-auct-3743",
-            "source": "ubuy.co.in",
-            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQHHoqe57uvdqgC4yjRdTWpJj8JajOgnwUFJBDrBJ0IaC_Xm_OqhySqdAlEvmWIlOlDUXywmWx0rYoy1TECHFwv5OjZRMXLHuFtXuYYMrre4zIs3g",
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSchyGPUAup01Oa9OH8Vv4vKJa3mfUuvZlSjgtVOSmU813VOt9f"
-        },
-        {
-            "position": 39,
-            "title": "Vintage NY Yankees Jorge Posada 20 New Era 59Fifty Game Fitted Hat Black 7 5/8",
-            "link": "https://www.ebay.com/itm/285093281466",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$29.95*",
-                "extracted_value": 29.95,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtnfNtE4PRGWqoHRZftGtRRvebYT3pU-mnfhJahyAScmU63YUk"
-        },
-        {
-            "position": 40,
-            "title": "New York Yankees New Era Authentic On-Field 59FIFTY Fitted Hat - 6 1/2",
-            "link": "https://www.ebay.com/itm/255637783891",
+            "title": "Authentic Gryffindor Crest Patch Universal Studios Wizarding World",
+            "link": "https://www.ebay.com/itm/155516158600",
             "source": "ebay.com",
             "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
             "price": {
@@ -473,277 +233,613 @@
                 "extracted_value": 9.99,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLCnZr2f44sYF1LCJ68ukKNI3LEjyzGY7uBcak05kjeL7s7GYC"
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSb1zEVlvwREWfkZ8xTn6c-hXZCIVmB1aXjc95-O8eut0Z3jj5X"
         },
         {
-            "position": 41,
-            "title": "Vintage 1998 World Series NY Yankees Wool Players Hat Cap Size 6 7/8 New Era",
-            "link": "https://www.ebay.com/itm/364012966400",
+            "position": 9,
+            "title": "hogwarts pheniox cape\uff5cTikTok Search",
+            "link": "https://www.tiktok.com/discover/hogwarts-pheniox-cape",
+            "source": "tiktok.com",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTiWsZg_7Q-8bAQYHlD9VtdBO8GLzYtDmFFmMRclrXQhRI17hRJ77T_Rc7VFiml61ZZKCAxlqLWhaBMeobWN_zExBK3t3LPjYWjTlpJS_fXur2RjQ",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThk7tW6SYiNyp1PZQMIyCONLOx2T1gmgfQNaDdTrgG_iJfQFZm"
+        },
+        {
+            "position": 10,
+            "title": "Gryffindor Crest Embroidered Patch",
+            "link": "https://harrypottershop.co.uk/products/gryffindor-crest-embroidered-patch",
+            "source": "harrypottershop.co.uk",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTXNUoIScaopScMEphV_U5Zq5T6hY-pJDYIgEVQro-Em-f4ffFmpI1cl8udSA_60KldSAQbS2YyVX7gkI5FC8tnoYMCIak58PoBmexHy0LDH4knZOukhIje5yg",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTafqqNMUFYUZrHv3mtN9iUI_Fi1m1dAFE67_1wXieWAfpgoesw"
+        },
+        {
+            "position": 11,
+            "title": "Harry Potter Wizarding World Gryffindor Patch Iron On New Universal Studios | eBay",
+            "link": "https://www.ebay.com/itm/125807695881",
             "source": "ebay.com",
             "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$49.98*",
-                "extracted_value": 49.98,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3BCGRG197hupvg6W8HrFEa1O0mltHuTXw0nPF6XwvRokFLmtc"
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkxpa8wCmAt9NW9JoFNrXfRqLtLv8iISTxR31d_IvurxeYgYB_"
         },
         {
-            "position": 42,
-            "title": "Whitey Ford 1961 Wsc Mvp Ny Yankees Signed Auto New Era Field 5950 Cap Hat Jsa - Autographed Hats",
-            "link": "https://www.amazon.com/Whitey-Ford-Yankees-Signed-Field/dp/B084ZZK233",
-            "source": "amazon.com",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
+            "position": 12,
+            "title": "Universal Studios Wizarding World of Harry Potter Iron-On Patch Gryffindor New",
+            "link": "https://www.ebay.com.au/itm/Universal-Studios-Wizarding-World-of-Harry-Potter-Iron-On-Patch-Gryffindor-New/183368730507?hash=item2ab1a0c78b:g:9VAAAOSwV3pba7n8",
+            "source": "ebay.com.au",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcQxbOKqpZixWZTGZSmfeojHD-a7uXgaeoxf5Qhppvy3c9DaKo6g41nzeVPu6Ggk_3LGTtQA6GJQhsH6seO3rS_xib3bbheKk9iu-7Gzz2qI7GPdHVQ",
             "price": {
-                "value": "$490.49*",
-                "extracted_value": 490.49,
+                "value": "$17.99*",
+                "extracted_value": 17.99,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGUZiclPjcAFu6gz-4VlrSlKyyjdFn-xQ9wmjgL8E3nCNYPgLV"
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrL7rWw1DzAjLYYM0UEYwXsk2L3kQ_Ig6SwDqi_Pg8coExlb7X"
         },
         {
-            "position": 43,
-            "title": "Vintage 80s/90s New York Yankees New Era Pro Model/Genuine Merchandise Snapback",
-            "link": "https://www.ebay.com/itm/384914689668",
+            "position": 13,
+            "title": "Magical Worlds to Explore after Watching Fantastic Beasts: The Crimes of Grindelwald - Get Literary",
+            "link": "https://getliterary.com/crimes-of-grindelwald/",
+            "source": "getliterary.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcTILLot94xK6rr55CTq8qt_7LgEruf_KKEpj6K1bWwlXQ_FUYGgh3lIAwD3-zQj7yl3JwKkME3wZ73mmKQ0NWg8ddtsfTY7Jl35TTOL3-OeYpt95_0",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSrt70g5C7fJ7iDGnG2cnph7LWJfFYM6LdhekxsB2fnXP4RHoPz"
+        },
+        {
+            "position": 14,
+            "title": "Harry Potter | Gryffindor Lion Icon Poster | Zazzle",
+            "link": "https://www.zazzle.com/harry_potter_gryffindor_lion_icon_poster-228459787682585083",
+            "source": "zazzle.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcRBZ6gc0BDSGhB_wpRoYnT9KE9v6Bd28unbqLEEB2Lv5BCjCfJApMFk27RULX0ZT7Un1k-z2bM-RS54bnRSqM7NCcLukxNCxFrRTMI6BlxolHZd3w",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSALBCT-d1L3FSs6kzEz0dmHuk05sleQtItg2oSqBb_jjBFLkoO"
+        },
+        {
+            "position": 15,
+            "title": "GRYFFINDOR Harry Potter Hogwart Crest EMBROIDERED SEW or IRON ON BADGE PATCH | eBay",
+            "link": "https://www.ebay.com/itm/195764130518",
             "source": "ebay.com",
             "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$299.99*",
-                "extracted_value": 299.99,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzfou05EwLxkHF2malWnHMHTI3FPWK5bEa7nZTEXI2VvDhTFfy"
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFdAZXCRLtrmnoQ39Xs3o6ZzyCmkn0aV7q7UKNw2fHMtkAeEz"
         },
         {
-            "position": 44,
-            "title": "Black SnapBack Yankees Hat",
-            "link": "https://poshmark.com/listing/Black-SnapBack-Yankees-Hat-5fc5900dd737fdccb6ccf776",
+            "position": 16,
+            "title": "Harry Potter | Gryffindor House Crest Poster",
+            "link": "https://www.zazzle.com/harry_potter_gryffindor_house_crest_poster-228605231132556602",
+            "source": "zazzle.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcRBZ6gc0BDSGhB_wpRoYnT9KE9v6Bd28unbqLEEB2Lv5BCjCfJApMFk27RULX0ZT7Un1k-z2bM-RS54bnRSqM7NCcLukxNCxFrRTMI6BlxolHZd3w",
+            "price": {
+                "value": "$39.70*",
+                "extracted_value": 39.7,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPTFyrO7j-JKdKtncB7YBqP7_xzfY4bkg6qG8htxyY56N8KCx4"
+        },
+        {
+            "position": 17,
+            "title": "Warner Bros. | Other | New Harry Potter Gryffindor Magnet | Poshmark",
+            "link": "https://poshmark.com/listing/NEW-Harry-Potter-Gryffindor-Magnet-5dbad2227f617fc4bc010d5a",
             "source": "poshmark.com",
             "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$30.00",
-                "extracted_value": 30.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgDbanpo8STihdOT06Bnp1qOkXralNw5TieUm6cJXaXEQ6CNy8"
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRa7ZKxzihaY5lpvX0ajuUxfVGPw80-_3lQfLDO8jwSgRTio_F8"
         },
         {
-            "position": 45,
-            "title": "New Era Accessories | New Era New York Yankees 2021 Baseball Hat - Nwot | Color: Black | Size: 7.5 | Kingthrowback's Closet",
-            "link": "https://poshmark.com/listing/New-Era-New-York-Yankees-2021-Baseball-Hat-NWOT-6292400ece5f1c7cc910f753",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
+            "position": 18,
+            "title": "ATA Harry Potter Gryffindor Sticker",
+            "link": "https://georgielousretrocandy.com/shop-online/ols/products/ata-harry-potter-gryffindor-sticker",
+            "source": "georgielousretrocandy.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcTl6vJTU1YR84kNQ0lzG4lWvPCw08f2qlMOqY1ARgI4on4Gal4UURmlKLqE0myvm4unALQQGN7zNHYDUDEsKf7UF8ZpbRrdV-gw4h5b9J0RJ26dv1sck-7KKRP6oUJp",
             "price": {
-                "value": "$28.00*",
-                "extracted_value": 28.0,
+                "value": "$4.50*",
+                "extracted_value": 4.5,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4-9eAGwGHLSmmDgllEPqxXHoik564Bsi-5s21psRtC2DAIpa7"
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9s8dik48KbKA2yX6XPpbjA20Ij_Rwsno3SBTTZpN1W9d9JOG2"
         },
         {
-            "position": 46,
-            "title": "New York Yankees 2000 World Series fitted Pink Brim 7 5/8",
-            "link": "https://www.ebay.com/itm/393842156696",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "position": 19,
+            "title": "Harry Potter 43024 Harry Potter Gryffindor Iron on Patch, 1 - Ralphs",
+            "link": "https://www.ralphs.com/p/harry-potter-43024-harry-potter-gryffindor-iron-on-patch/0000821561008?fulfillment=SHIP",
+            "source": "ralphs.com",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQ0a9hJ9ltYLhO-Sy6KSIYFo_Kz0bO-zFPBo8rjRoczrB3o59yw3ezaIW6ADSJRsVTmgWvlGUwVdB2XMujcMbrUA0oDd9lwAS1DgmyNGcX4qZ_F8w",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5LBNF7O2_MJjiQFGhpIf3knryYVzWcSnNT3jFLL5RjHIHcCGM"
+        },
+        {
+            "position": 20,
+            "title": "Gryffindor Crest SOLD",
+            "link": "https://pixels.com/featured/gryffindor-crest-sold-pattie-mamrak.html",
+            "source": "pixels.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcQMzHYc2hNvO306jr6LOQkpZQypP9YdrQZ_hkMijP6BJJymk-pE3pDd6H-b0jqTJKfs4S37hh4JmF741aJSlSjqOutPvgvVh3UlHT9Ut6EC",
             "price": {
-                "value": "$35.00*",
-                "extracted_value": 35.0,
+                "value": "$5.00*",
+                "extracted_value": 5.0,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xyUPS8HRB3B_Efucm_4w_byzFnLptgAxEN6WkH3tklvee6HL"
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT0Viq6u0ezWIzwzlfSIo4O2IlOePsBvAJ6SuQd8JZ7vbzT6QPm"
         },
         {
-            "position": 47,
-            "title": "Navy Yankee cap",
-            "link": "https://poshmark.com/listing/Navy-Yankee-cap-60722a1081a36c233be2a9cf",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
+            "position": 21,
+            "title": "HARRY POTTER House of Gryffindor Large Crest Logo New Embroidered Iron-On Patch | eBay",
+            "link": "https://www.ebay.ca/itm/HARRY-POTTER-House-of-Gryffindor-Large-Crest-Logo-New-Embroidered-Iron-On-Patch-/272458303127",
+            "source": "ebay.ca",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTqx8936HSsRxzJRZmx_qzuYj7pnl9GdpnNWDKCToA7y2LorwIa3I5DpsyTQZPRI_EGOYIHZe2sa0UX1sE03D5tqTOpQcIs56jIOgfk9vogiQ",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTsIrHwWxfQkaEu98nEQ4jHWhNQwwIuHZicQgwnpiyjtmMsMCHQ"
+        },
+        {
+            "position": 22,
+            "title": "Universal Magnet - Harry Potter - Gryffindor Crest",
+            "link": "https://www.yourwdwstore.net/Universal-Magnet--Harry-Potter--Gryffindor-Crest_p_32328.html",
+            "source": "yourwdwstore.net",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcRRgheOSPHaOLk60e-nqpMd5dWh0iMoi_18_pQdTzHLTXKV6KrIMRwafWrDQapWVf9iZ--7DrWCzjX0fM6h6Fslt9skEV_hZ4bNFw-wEJwsJYATprVRu61Fzg",
             "price": {
-                "value": "$15.00",
-                "extracted_value": 15.0,
+                "value": "$18.95",
+                "extracted_value": 18.95,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiglANMjmwCvMh0sntFzUu41lEV7Yxw0S6pg4QJTAFoi6z59R1"
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmBMMIU-9q2E_sgOlSvUGtSkiunTgLPv_CTv8p1Q3d9RqvUc4s"
         },
         {
-            "position": 48,
-            "title": "Derek Jeter Autographed Baseball Hat Jsa Certified Yankees",
-            "link": "https://www.ebay.com/itm/133012328807",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "position": 23,
+            "title": "Harry Potter - Gryffindor Crest Patch | Ozzie Collectables",
+            "link": "https://www.ozziecollectables.com/products/harry-potter-gryffindor-crest-patch",
+            "source": "ozziecollectables.com",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcQpWJnlgchDqWK79I8DmVzuGVUSIMa6MKW4hm1CR-aud8-x7p9sG_zEDClyXBcH5AnkMdi0DvLB7z6iDgLqF7pHwnth2dhXevbv9QD8trg3bFQ8JKzJZtlzP85pSd-n",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT51ry00qDtDuEl2feleisvvUjTRjCzrXihdb1xqqwMbeQDuKVx"
+        },
+        {
+            "position": 24,
+            "title": "Wholesale Merrow Border Custom 3D Brand Logo Silver Metallic Thread Embroidered Patch for Backpack",
+            "link": "https://m.alibaba.com/product/62318328384/Wholesale-Merrow-Border-Custom-3D-Brand.html",
+            "source": "alibaba.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcR2DGP6YK14LxdKfAcXaa44CJgsDbneYFUPmoDtJlFY8nv6a2U421KnuWqZ628B66ck1e086UTqYnl_sk60dBchlG0iTtm3msGLB16PV40Okb70",
             "price": {
-                "value": "$574.62*",
-                "extracted_value": 574.62,
+                "value": "$63.00*",
+                "extracted_value": 63.0,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBIH5kSqCbr7xNCN3d4QO7kE3e1sJcz5-99BgHrqK_8G-M2aQG"
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYKdyZmFiapHXMJr0jOFVBmWf84PuPL-VgMa1ohYbh1FFRV_Xj"
         },
         {
-            "position": 49,
-            "title": "New Era Toddler NY Yankees Fitted Hat",
-            "link": "https://poshmark.com/listing/New-Era-Toddler-NY-Yankees-Fitted-Hat-59ed55f1620ff74f0c0b88f5",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
+            "position": 25,
+            "title": "Harry Potter towel merch",
+            "link": "https://www.etsy.com/listing/1290173790/harry-potter-towel",
+            "source": "etsy.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcSBC4oQ3bkBuevoH8XpxAl0ri8XiuLd4I543l3vUizk2p7JnS_Kl1aJTVxs9nt4vEC2m0siqwjI-o3Mysd9TaJqSrdOdkseIKFJA66bIfBIaDs",
             "price": {
-                "value": "$20.00",
-                "extracted_value": 20.0,
+                "value": "$20.49",
+                "extracted_value": 20.49,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6mbMmRr0ceO6eAOL5B_s0BgDPGED9qLMGmIGhO3keN560X_J"
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQweEvek3icDn_spThb-aICzAIe5HFI0uJHtPHu6oxXaU8WoD3"
         },
         {
-            "position": 50,
-            "title": "New Era Accessories | New Era Fitted Infant New York Yankees Cap | Color: Blue | Size: Infant | Pm-02651816's Closet",
-            "link": "https://poshmark.com/listing/New-Era-fitted-INFANT-New-York-Yankees-cap-63efe402fb7304385d390997",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$12.00*",
-                "extracted_value": 12.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9NmXpzy0dVy6arSxl0qU1LwUR--QZoQiKJxz0UExaWy1diq7"
-        },
-        {
-            "position": 51,
-            "title": "Mlb Accessories | Mlb Official Yankees Baseball Cap | Color: Blue | Size: Medium | Bijanfashion's Closet",
-            "link": "https://poshmark.com/listing/MLB-official-Yankees-baseball-cap-5dbf6c281528125f3a058c39",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$27.00*",
-                "extracted_value": 27.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQoygqV_hvyuxYQjVSPSBQtxh8pc_OaX3zQDIA6tMjBqg2ckXk2"
-        },
-        {
-            "position": 52,
-            "title": "New Era Accessories | Black And White Basic 59fifty | Color: Black/White | Size: One Size Fits Most | Haleynicoless's Closet",
-            "link": "https://poshmark.com/listing/Black-and-White-Basic-59FIFTY-6441fd7a4bc655d0943114e5",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$20.00*",
-                "extracted_value": 20.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe-MjMmw6JeZ5G7S6l7eCVQo40JR5buIS5IlhstE88iHigCOg9"
-        },
-        {
-            "position": 53,
-            "title": "New Era Accessories | Navy Blue Yankees Fitted Cap | Color: Black/White | Size: 7 3/4 | Nataliekarneeb's Closet",
-            "link": "https://poshmark.com/listing/Navy-Blue-Yankees-Fitted-Cap-63b6147902760b776e774b84",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$25.00*",
-                "extracted_value": 25.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-Lt-tBeY5Ker59cgAaNoCDdoK-026D5SSZ0eN11632FSPxb53"
-        },
-        {
-            "position": 54,
-            "title": "Mlb Accessories | Ny Yankees Official On-Field Cap | Color: Blue/White | Size: 6 And 5/8 (53 Cm) | Linzrabo0203's Closet",
-            "link": "https://poshmark.com/listing/NY-Yankees-Official-OnField-Cap-61484c42ff7c5a329b680f6a",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$50.00*",
-                "extracted_value": 50.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZ-Vo8Rcp_3Li5o1BWV0BtrWAX2j8vC1YOTCgTt7czG3_e6XQJ"
-        },
-        {
-            "position": 55,
-            "title": "Joe Dimaggio Autographed Signed York Yankees Mlb Baseball Hat / Cap",
-            "link": "https://www.ebay.com/itm/234754179108",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$850.00*",
-                "extracted_value": 850.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2VOx77rZ6SA8u7XMvYf0gD4SNt65QaeDh6MgYqSiOV7ZcMFA"
-        },
-        {
-            "position": 56,
-            "title": "Yogi Berra Signed New York MLB New Era Baseball Hat 7 1/2 JSA",
-            "link": "https://www.amazon.com/Yogi-Berra-Signed-York-Baseball/dp/B08Y3TMBZ1",
-            "source": "amazon.com",
-            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
-            "price": {
-                "value": "$299.99",
-                "extracted_value": 299.99,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjwnE8ooIw8WWb-23doy4O0Y61d1wBhGDeiQHxusg85se6lWCa"
-        },
-        {
-            "position": 57,
-            "title": "Genuine Merchandise Other | New York Yankees Cap. | Color: Black/White | Size: Os | Wilmanash's Closet",
-            "link": "https://poshmark.com/listing/New-York-Yankees-cap-62fd43f08634cbc75aac8c1f",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
-            "price": {
-                "value": "$30.00*",
-                "extracted_value": 30.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjFebuxjaB9WZxSEl1sS_qsIK3A9Tc6cgVrBw16i3MNSNicZ3J"
-        },
-        {
-            "position": 58,
-            "title": "USACapKing Exclusive New York Yankees 1999WS Corduroy Fitted Size 7 5/8 \u201cC Pack\"",
-            "link": "https://www.ebay.com/itm/325375834364",
-            "source": "ebay.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
-            "price": {
-                "value": "$90.00*",
-                "extracted_value": 90.0,
-                "currency": "$"
-            },
-            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSls-vwxRLBboMNzmxCrScn4r-zCCHPQ4VHtmJ2DXRRXUU_uddt"
-        },
-        {
-            "position": 59,
-            "title": "New York Yankees Baseball Hat Cap Adjustable Snapback One Size Fits All",
-            "link": "https://www.ebay.com.my/itm/334888315409",
+            "position": 26,
+            "title": "Harry Potter: 4 Different House Seals Embroidered Iron On Patches",
+            "link": "https://www.ebay.com.my/itm/125190526424",
             "source": "ebay.com.my",
             "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcTJ2jV7jNGHlQepIax-mL_oMAdhV1hbmmRIhNj1Yg3ZVUoAG5VboA48ZJ4gcwVXSk3D9ug9suTpZsU44I9MCZy3hdnRwhNw06FpYTez9qSVnqXRoBo",
             "price": {
-                "value": "$82.20*",
-                "extracted_value": 82.2,
+                "value": "$19.45*",
+                "extracted_value": 19.45,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeBPioiD8MUbPjxRpk6AberfmIZkKUNS7M1z_dbr8w_3XvfgEc"
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTusAirqVEpc8KE9Ex_ajYxX7LrkhdiCpPdE0TCH4nBFPN076i"
         },
         {
-            "position": 60,
-            "title": "Black Ny Hat | Color: Black | Size: Os | Jonahridd's Closet",
-            "link": "https://poshmark.com/listing/Black-NY-hat-5cd8d0a529f03005afcdffb4",
-            "source": "poshmark.com",
-            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRglTQayecXuxgCFUZcgfbfA0OslKHNi_zul24ja6dNR7fFy_QNTwAYGBTDRYwPhEq6SEu7vqbjxSSTFT8JfQQODue5hNhO-4uQ26dgqP4HA44",
+            "position": 27,
+            "title": "Gryffindor badge - Gwen-Mari Creations",
+            "link": "https://www.gwen-maricreations.co.za/product/gryffindor-badge-3/",
+            "source": "gwen-maricreations.co.za",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTU1DlEiLDalm-LtVULEViV5dlnw-z3CYvSAZbAm-2saxy8wQUM_DlQFdgfQN4oXX0ejDGegIV5AH9Lg8ndLuhuLEYes-tX0_DkQ0Lj_YQcqRFVyyXPC_Sjn0J-3Kytngvb",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHteQjR6Qb9oXt5EM-621DthWSXFfky8LcLBjOOsuLFpTBdnal"
+        },
+        {
+            "position": 28,
+            "title": "Amazon.com: Simplicity Harry Potter Slytherin House Emblem Applique Clothing Iron On Patch, 3.5'' x 4.15",
+            "link": "https://www.amazon.com/Simplicity-1932172001-Slytherin-Applique-Clothing/dp/B07PKDQKXP",
+            "source": "amazon.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmVT0siV2chI2_nv6DMK7wWT-TQrFfB92TXKF7-DKsbBP_bx0Y"
+        },
+        {
+            "position": 29,
+            "title": "Amazon.com: Ata-Boy Harry Potter Hufflepuff Crest 3\" Full Color Iron-On Patch,Black & Gold,One Size : Clothing, Shoes & Jewelry",
+            "link": "https://www.amazon.com/Ata-Boy-Harry-Potter-Hufflepuff-Crest/dp/B01M3Q5BBV",
+            "source": "amazon.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQRxM1jxJ0rP65wZx_MsMFfL1tO2gwbIT40ZFTUEcDT239Emqz_"
+        },
+        {
+            "position": 30,
+            "title": "hogwarts crest cross stitch by grumble-king2 on DeviantArt",
+            "link": "https://www.deviantart.com/grumble-king2/art/hogwarts-crest-cross-stitch-327965142",
+            "source": "deviantart.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcRiToPwCAXY444Beykgzhbw_WCxnbx_zVqelrl11wTZVHBzNBV1-8Mmk6JKE66IbR4dVYVcD-pIR4xjpoHakvwWIOwVQF9tz__eIVKpWF0xji7ixJfuNTE",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_b9FvF8m0buDO2mm5aL4vDaOcmXWCbwY2wsTOCTYIgn5g2RRT"
+        },
+        {
+            "position": 31,
+            "title": "Harry Potter Quidditch Team Captain Girl's T-Shirt \u2014 Vanilla Underground",
+            "link": "https://www.vanillaunderground.com/products/harry-potter-quidditch-team-captain-girls-t-shirt-1",
+            "source": "vanillaunderground.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcTv0lfv9BKILqDCYHv7TCBVjwAFi0W5wMTn1DKhjvtxFEmQAHxMFrjXn_UT6SXxYNVdFJO7xaS4ndovDD856RxtUXGph57aVDr7Bax7D7hnDFodbl44cNlNb5aPTNvi2A",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Jnut0tJKiaDbo_kPhjuKLbG5NOOlWTBrs1JqlQsnOrfpoK0a"
+        },
+        {
+            "position": 32,
+            "title": "Harry Potter House of Gryffindor, Ravenclaw, Hufflepuff, Slytherin House Hogwarts Crest Patch 3.94\"x3.15\" Full Color Iron-On Patches Crest Set for Coat Jacket Gear Cap Hat Backpack 4PCS : Amazon.sg: Fashion",
+            "link": "https://www.amazon.sg/Gryffindor-Ravenclaw-Hufflepuff-Slytherin-Hogwarts/dp/B076HLRPXK",
+            "source": "amazon.sg",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcTzb65TWxNmvm5qff4fPFas_zwJ7rkHKYTb6gNCgAkzfah-UK4fjZrCNxQ1aAGcgsxpp6fPmtsSXdJpJCn5am7qVZ9cN_3ICfFr9s0guENZHOit",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3s7RjDhbcSTJRCrLXdXBruBWs3vy0YtC9xeHVmcJeedwltdhS"
+        },
+        {
+            "position": 33,
+            "title": "Amazon.com: Official Harry Potter Gryffindor Women's T-Shirt (L) : Clothing, Shoes & Jewelry",
+            "link": "https://www.amazon.com/Official-Potter-Gryffindor-Womens-T-Shirt/dp/B07CPG3YGF",
+            "source": "amazon.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcRm4oMDPHDSWBDQhB5-csYIdmVde_ZfnfUYnfzlJJ9w7zjXG34H4SL9TXI2H8XWInsqPagyhBQjtImrHgLv9Bwvw_d2JvfjMfz3ox9yR82MKQ7yrQ",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSD2SRn4M1VO8o4pGtiGwE0Wtv1kUjO-AerTcgE138rwK-Kwg3W"
+        },
+        {
+            "position": 34,
+            "title": "GRYFFINDOR - iron on 100% embroidered embroidery patches patch",
+            "link": "https://www.pinklion.com/products/16883-gryffindor-iron-on-100-percent-embroidered-embroidery-patches-patch",
+            "source": "pinklion.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcQzXf_OFc_zLIWgRO2TO7nYtlLBsinBxqzKAYfj_XvpN2GjBWHSlS5uSC_viMZIil2FIbDSMCgEUCvc-mJfWRxf4Nh2digPGVBm2W7EAxfkhNrqRz-j",
+            "price": {
+                "value": "$7.98*",
+                "extracted_value": 7.98,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj7cl4kFTYEshytD_GDfBH10Xq3KDnWKVCp4kuiMRZ60lqdf9U"
+        },
+        {
+            "position": 35,
+            "title": "Harry Potter Gryffindor Crest Soft Touch Magnet",
+            "link": "https://www.superherostuff.com/harry-potter/magnets/harry-potter-gryffindor-crest-soft-touch-magnet.html?itemcd=111773",
+            "source": "superherostuff.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRy-SICGLoBtQTqXVp_UbwjW9SlaeFSnACjh38bmMf_W6LCqC8jAuweH2O_uRfID4JYM6pnDA-sq2cluc6eenPGUMaLmd7EGthFI7Remg-Y9tDZBBL-jC4EY1zu",
+            "price": {
+                "value": "$5.99",
+                "extracted_value": 5.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk30AvdnNpjkYEeJ-wwf-XF7XWQ953P7hTDc1BNCE6-oOvJm9R"
+        },
+        {
+            "position": 36,
+            "title": "Kids Woven Crest Gryffindor Tie",
+            "link": "https://cinereplicas.com/products/woven-necktie-gryffindor-kids",
+            "source": "cinereplicas.com",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcTL-ctRQ1UprfGFmq9Iep8jIyahhE689BMCNts1ytVY8Kc8s9lU72Q9rGQbbViHJ78R39lPHa6NXgYzsdzyXlyfgq_1X3SUMynz3fK4zhO2nQLPEM0t",
+            "price": {
+                "value": "$21.95*",
+                "extracted_value": 21.95,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSVDdU6yFo4pDUDQoaDKAoyTw1IOS9mOjsOSPBkkbDrLFQHhm-A"
+        },
+        {
+            "position": 37,
+            "title": "Gryffindor House Crest Logo Harry Potter Hogwarts Embroidered Iron On",
+            "link": "https://www.ebay.com/itm/354266410514",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$6.00*",
+                "extracted_value": 6.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5lNRO95f3gn21MMT1X6rLO9iq0LuBb-XLiJIsBOcBaebq33Si"
+        },
+        {
+            "position": 38,
+            "title": "NEW Harry Potter Loot Crate Gryffindor House Crest Patch",
+            "link": "https://www.ebay.com/itm/234650135330",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$5.00*",
+                "extracted_value": 5.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAD6XrzokauCkgTGbI1BRTjmV8SRhpxQS3hL3Eu9H3yH96oLOC"
+        },
+        {
+            "position": 39,
+            "title": "Harry Potter Gryffindor Embroidered Patch 4 1/2 Inches Tall Style B",
+            "link": "https://www.ebay.com/itm/403237686970",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$5.99*",
+                "extracted_value": 5.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnczc5d1uZm4m1HfxQfK93adPKdl34NQMd8Svk6YfK36emd9og"
+        },
+        {
+            "position": 40,
+            "title": "Harry Potter Gryffindor Crest Sublimated Embroidered Iron On Patch",
+            "link": "https://www.ebay.com/itm/144759931093",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
             "price": {
                 "value": "$11.00*",
                 "extracted_value": 11.0,
                 "currency": "$"
             },
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSibZ38qniUOpqQde84bexI_Z7FPt-NN1Wyt-fMHlO2RLTqbRwH"
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8V9hO0lvUUN11ipS6Tai07OfpkdVqmEM7bE95C29jEr66_ZL"
+        },
+        {
+            "position": 41,
+            "title": "Harry Potter 3.5\u201dx2.75\u201d Gryffindore Iron-On Embroidered Patch. 2010",
+            "link": "https://www.ebay.com/itm/373526182430",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$10.00*",
+                "extracted_value": 10.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSiRc6t38Q06JQVpo9SZzPU1ddNwgJgEqeu2BHbIVw6YxUKDZKo"
+        },
+        {
+            "position": 42,
+            "title": "Harry Potter Wizarding World Gryffindor Patch Iron On New Universal Studios",
+            "link": "https://www.ebay.com/itm/125957715069?chn=ps&mkevt=1&mkcid=28",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$8.17*",
+                "extracted_value": 8.17,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRvjrmpTfAwmkHpOpg5yB4YUoXQM6CDk-jvzWIFNC_qcxjos9ej"
+        },
+        {
+            "position": 43,
+            "title": "Draco Dormens Nunquam Titillandus Embroidered Iron On Sew Badge",
+            "link": "https://www.ebay.com/itm/143993092602",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$20.00*",
+                "extracted_value": 20.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLF6OiSYyM9S5NX0Ye9AMPPTYX2hA2eHPwz3E0jo99DLPIS5Pp"
+        },
+        {
+            "position": 44,
+            "title": "Wizarding World Harry Potter Universal Studios Gryffindor Crest Pin No",
+            "link": "https://www.ebay.com/itm/125936971050",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$9.99*",
+                "extracted_value": 9.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR7ZBZeawJZKORD7ESgORziPKjJPlKJMMv6N492F7RZEiSFg7w3"
+        },
+        {
+            "position": 45,
+            "title": "Harry Potter Ravenclaw Logo Patch Iron On Patch Sew On Badge",
+            "link": "https://www.ebay.com/itm/364007254505",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$4.00*",
+                "extracted_value": 4.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQ05YzxqABazLZZvfsiNj3C1kYWFTRTG9l93U9EcIwfrfFOjEK"
+        },
+        {
+            "position": 46,
+            "title": "Gryffindor Collectible Pin Brooch Harry Potter",
+            "link": "https://www.ebay.com/itm/125713644548",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$10.00*",
+                "extracted_value": 10.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8ByKJDgo_4tWG-7HgjG3ikoLSGlNYicuRhY51jAEBuEzE_g60"
+        },
+        {
+            "position": 47,
+            "title": "Harry Potter Wizarding World Hufflepuff Patch Crest",
+            "link": "https://www.ebay.com/itm/134369897250",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$9.99*",
+                "extracted_value": 9.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRba_T2KzlsHzGiI0dabjCkGENkso3pi1ntDJleYJ3U3C6FxO_m"
+        },
+        {
+            "position": 48,
+            "title": "Loot Crate Harry Potter Wizarding World Gryffindor Neck Tie/iron On",
+            "link": "https://www.ebay.com/itm/163640673502",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$14.00*",
+                "extracted_value": 14.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLtVByzZ7tKGg-TBEQSOrI8lD9IWN9EB6Je4bU4IQg2oyVHaFi"
+        },
+        {
+            "position": 49,
+            "title": "Harry Potter Gryffindor Patch, New Playing Cards, Keychain, Empty Box with Card",
+            "link": "https://www.ebay.com/itm/354653826968",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$13.00*",
+                "extracted_value": 13.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQlErPqDeBXABqoZ5wlhnW7znBIt5KwDO_dEQL8LJQ4nQDRIkKi"
+        },
+        {
+            "position": 50,
+            "title": "Harry Potter Hogwarts Crest Iron On Patch Set 4 Gryffindor Slytherin",
+            "link": "https://www.ebay.com/itm/295218970339",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$28.75*",
+                "extracted_value": 28.75,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ07QzVej05Bh-tDTW8nvfShWC4TXOsXboUkrofIC-aHJOp5aGz"
+        },
+        {
+            "position": 51,
+            "title": "Gryffindor Harry Potter Us Army Usa U.s. Tactical Badge 3d Embroidered",
+            "link": "https://www.ebay.com/itm/253841641732",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$7.99*",
+                "extracted_value": 7.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFEvTxPF--yBHxUJk34r5tydnCVjIzHb4ATvrWVL664D13Gz6-"
+        },
+        {
+            "position": 52,
+            "title": "Harry Potter Puzzle 750 Piece 20x23 Hogwarts Crest",
+            "link": "https://www.ebay.com/itm/185170390705",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$18.00*",
+                "extracted_value": 18.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQnbANQbOslK-QmfzrajGoXmhoalXb0JeN0TAjJkQZEbZsKOg61"
+        },
+        {
+            "position": 53,
+            "title": "Harry Potter Decal Automotive Window Mirror Decal Gryffindor",
+            "link": "https://www.ebay.com/itm/285096027096",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$5.00*",
+                "extracted_value": 5.0,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZY9DUrvp1BOLswca9ZQuHRoMW1qEhjC54Nam17ekwM3RNXXLN"
+        },
+        {
+            "position": 54,
+            "title": "HARRY POTTER GRYFFINDOR embroidered icon theme pocket patch",
+            "link": "https://www.ebay.com/itm/354638828123",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$17.95*",
+                "extracted_value": 17.95,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaqQ3613ld6SUFfY8eLKHhAKTbd3AjX_KTtjYuBz-4_OKgzYZS"
+        },
+        {
+            "position": 55,
+            "title": "Universal Wizard World Harry Potter Gryffindor Keychain Personalized",
+            "link": "https://www.ebay.com/itm/325201065032",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$5.95*",
+                "extracted_value": 5.95,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuSgvqo8ARHHhKPASmEnV6OXlsJ-svgZ2z_o_UOT3QYTmlTnac"
+        },
+        {
+            "position": 56,
+            "title": "Universal Studios Harry Potter Hogwarts Patches, Photo Album, Luggage",
+            "link": "https://www.ebay.com/itm/144935072059",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$49.99*",
+                "extracted_value": 49.99,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1nsRiLYjt2bawP-IGj1j61OMwM6IA6Uj4vhG9hFzPHj2nsYud"
+        },
+        {
+            "position": 57,
+            "title": "Harry Potter House Of Gryffindor Crest Logo Large Enamel Metal Pin",
+            "link": "https://www.ebay.com/itm/163923093455",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$12.95*",
+                "extracted_value": 12.95,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRV43Ia1hDw-sVqe74kJ_3B6_AJ6Haq2ihQ5ha234VDRYlcu8l7"
+        },
+        {
+            "position": 58,
+            "title": "Harry Potter Raglan T-shirt Wizarding World of HP Gryffindor Crest Adult Sz L",
+            "link": "https://www.ebay.com/itm/374236742597",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$12.95*",
+                "extracted_value": 12.95,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTGylSqJtQSvTFvnFLK_GMxUAdQBDW79tU5gFztA7Er-gfbgx5g"
+        },
+        {
+            "position": 59,
+            "title": "Harry Potter Photo Quality Magnet: Hogwarts Crest. Hogwarts Magnet",
+            "link": "https://www.ebay.com/itm/234276099879",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcT5NXsW5qpQoNKtvnEC0sNL88H54opWmBBYIh2gQ3U_SGUU-yc8xV_BfeECVq4HYfwroQsx3k4lpMvjDByZM4KvONyK63j7aI6RPQrDFwRa9lo",
+            "price": {
+                "value": "$3.50*",
+                "extracted_value": 3.5,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdIa2yzMCc78g0CT9zT5quwBNDdxzmaaEs7OnSYGSaGyAJJUuZ"
+        },
+        {
+            "position": 60,
+            "title": "GRYFFINDOR CREST Iron on / Sew on Patch Embroidered Badge Harry Potter PT358",
+            "link": "https://m.ebay.com/itm/325058967497",
+            "source": "ebay.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcT3Q2ZJv6dONDfKpWvLrS87sAsdFPMB6edCV-_8wZsLg94z6PscuMuYe2Q12Cs-PxsRqmiFIrcX_xXx4vti1GXtyz_ZPRuzqlgOOs3fN2ZQ",
+            "price": {
+                "value": "$3.77*",
+                "extracted_value": 3.77,
+                "currency": "$"
+            },
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYDoN3mLRsjnKclhBx4k8egwmaB2XFXPQhywOexkZgkNt5toPe"
         }
     ],
     "reverse_image_search": {
-        "link": "https://www.google.com/search?tbs=sbi:AMhZZitVvcK5yzAyXt4YXqIcbyjOLDXKL4QzUf9Rmd_1fGzB4JDO_1bFiVhzcxs1_1Y5gtJuwRr-kALkZhlaLm19Xgtg8D0ZR6Vu-Pd_1NEV9n4pWz1VoCV3ePm5qsft4u_1uu_1En-NAfxHx90f9yzBUYthjmA3u8DzYeHg"
+        "link": "https://www.google.com/search?tbs=sbi:AMhZZiuidXXBJMhubmpWI5lTurmB9UMQoJV4wNkcb6mL3ko6-HF6g8tKYIldTaz7kGIQJZ8SjG4tdwHsl9Fnlq2GLRrbReZ5wJPnXSDPArDcyF_1HAZd40r1ru1CodVGwnGTAa99U5i-puTVKwnS7pUEBicEbT2CQiQ"
     },
     "text_results": [
         {
-            "text": "2031",
-            "link": "https://www.google.com/search?q=2031",
-            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=2031"
+            "text": "GRYFFINDOR",
+            "link": "https://www.google.com/search?q=GRYFFINDOR",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=GRYFFINDOR"
+        },
+        {
+            "text": "CEDARY",
+            "link": "https://www.google.com/search?q=CEDARY",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=CEDARY"
         }
     ]
 }

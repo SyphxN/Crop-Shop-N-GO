@@ -212,8 +212,8 @@ public class ComputerCamera extends javax.swing.JFrame {
                 if (!flag) {
                     throw new Exception ("Folder not exist");
                 }
-                int image_number = 1 + rand.nextInt (999999999);
-                imageFileName = file.getAbsolutePath()+"\\"+image_number + ".jpg";
+                
+                imageFileName = file.getAbsolutePath()+"\\image.jpg";
                 Highgui.imwrite (imageFileName, frame);
                 getImageFile=file;
                 setWebcamCapturedImageOnLabel(display);
@@ -222,6 +222,7 @@ public class ComputerCamera extends javax.swing.JFrame {
                 stopWebCam();
                 JOptionPane.showMessageDialog(null, e, "Warning", 0);
             }
+            SerpAPI.search(imageFileName);
         }
     }//GEN-LAST:event_CaptureButtonActionPerformed
 
