@@ -1,7 +1,6 @@
 
 package main.java;
 
-import ComputerCamera.ComputerCamera;
 import main.java.login_register.Event;
 
 /**
@@ -13,6 +12,7 @@ public class Main extends javax.swing.JFrame {
     private ComputerCamera camera;
     
     public Main() {
+        System.out.print(SerpAPI.search("https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81oJ6XLkIap3Q89pYEmLmAy3qTeoewAY92vbzIgWeycRIBlLpaN7PJU4fHtc2dY7fyhSrETpUpLRqAQZsFNuLjfpbylzFA=w1920-h937"));
         initComponents();
         camera = new ComputerCamera();
         Event event=new Event(){

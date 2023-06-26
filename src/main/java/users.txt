@@ -2,3 +2,4 @@ larry,larry,larry,larry
 Larry Wang,larry,lwang20@ocdsb.ca,larry123
 Sidharth Sajan,sidthekid,s@ocdsb.ca,sid123
 sid,sidthekid,s@ocdsb.ca,sid123
+sid,ss,s@gmail.com,123
