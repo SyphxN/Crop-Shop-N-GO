@@ -10,15 +10,19 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import main.java.SerpAPI;
 import main.java.login_register.Event;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
 import org.opencv.highgui.Highgui;
 import org.opencv.highgui.VideoCapture;
+import main.java.DisplayResults;
+
 
 /**
  *
@@ -30,8 +34,8 @@ public class ComputerCamera extends javax.swing.JFrame {
      * Creates new form ComputerCamera
      */
     private Event event;
+    
     public ComputerCamera() {
-        setExtendedState(MAXIMIZED_BOTH);
         initComponents();
     }
     
@@ -94,6 +98,7 @@ public class ComputerCamera extends javax.swing.JFrame {
         CaptureButton = new main.java.components.Button();
         StopButton = new main.java.components.Button();
         button1 = new main.java.components.Button();
+        button2 = new main.java.components.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -164,6 +169,16 @@ public class ComputerCamera extends javax.swing.JFrame {
         jPanel1.add(button1);
         button1.setBounds(1090, 40, 110, 40);
 
+        button2.setText("Results");
+        button2.setFont(new java.awt.Font("SansSerif", 1, 24)); // NOI18N
+        button2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(button2);
+        button2.setBounds(1110, 280, 270, 130);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -230,6 +245,16 @@ public class ComputerCamera extends javax.swing.JFrame {
         StopButton.setEnabled(false);
         CaptureButton.setEnabled(false);
     }//GEN-LAST:event_StopButtonActionPerformed
+
+    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
+        // TODO add your handling code here:
+        ArrayList<ArrayList<String>> items = SerpAPI.getItems();
+
+                // Create and display the JSONTableApp frame
+                DisplayResults app = new DisplayResults(items);
+                app.setVisible(true);
+        
+    }//GEN-LAST:event_button2ActionPerformed
 
     private void stopWebCam(){
         if (myThread != null){
@@ -306,6 +331,7 @@ public class ComputerCamera extends javax.swing.JFrame {
     private main.java.components.Button StartButton;
     private main.java.components.Button StopButton;
     private main.java.components.Button button1;
+    private main.java.components.Button button2;
     private javax.swing.JLabel display;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
