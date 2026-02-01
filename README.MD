@@ -1,4 +1,5 @@
 # Crop-Shop-N-GO
+API subscription gone... Therefore main feature gone...
 Shop for items using a reverse image search computer app. Mobile app coming soon!
 
 ## Build (Gradle)
