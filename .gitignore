@@ -4,3 +4,5 @@
 /dist/
 /build/
 .gradle/
+users.txt
+.cropshopngo/

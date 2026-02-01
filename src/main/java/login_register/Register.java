@@ -176,7 +176,7 @@ public class Register extends Panel{
             JOptionPane.showMessageDialog(this, "All fields are required.", "Error", JOptionPane.ERROR_MESSAGE);
             return false;
         }
-        String usersFile = "users.txt";
+        String usersFile = UsersFile.getPath();
         try (BufferedReader reader = new BufferedReader(new FileReader(usersFile))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -193,9 +193,13 @@ public class Register extends Panel{
             e.printStackTrace();
             return false;
         }
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(usersFile, true))) {
-            writer.write(name + "," + username + "," + email + "," + password);
-            writer.newLine();
+        String passwordHash = PasswordHash.hash(username, password);
+        try {
+            UsersFile.ensureParentDirExists();
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(usersFile, true))) {
+                writer.write(name + "," + username + "," + email + "," + passwordHash);
+                writer.newLine();
+            }
         } catch (IOException e) {
             e.printStackTrace();
             return false;

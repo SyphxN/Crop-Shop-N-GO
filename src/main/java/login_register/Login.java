@@ -127,7 +127,7 @@ public class Login extends Panel{
         if (username.isEmpty() || password.isEmpty()) {
             return false;
         }
-        String usersFile = "users.txt";
+        String usersFile = UsersFile.getPath();
         try (BufferedReader reader = new BufferedReader(new FileReader(usersFile))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -136,7 +136,7 @@ public class Login extends Panel{
                 String[] userData = line.split(",");
                 if (userData.length >= 4
                         && userData[1].trim().equalsIgnoreCase(username)
-                        && userData[3].trim().equals(password)) {
+                        && PasswordHash.verify(userData[1].trim(), password, userData[3].trim())) {
                     return true;
                 }
             }
