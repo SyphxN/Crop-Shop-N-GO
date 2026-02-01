@@ -2,6 +2,7 @@ package main.java.login_register;
 
 import main.java.components.Panel; 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import javax.swing.JOptionPane;
@@ -121,20 +122,30 @@ public class Login extends Panel{
     }//GEN-LAST:event_button3ActionPerformed
 
     private boolean login(String username, String password) {
-    try (BufferedReader reader = new BufferedReader(new FileReader("src\\main\\java\\users.txt"))) {
-        String line;
-        while ((line = reader.readLine()) != null) {
-            String[] userData = line.split(",");
-            String existingUsername = userData[1];
-            String existingPassword = userData[3];
-            if (existingUsername.equals(username) && existingPassword.equals(password)) {
-                return true;
-            }
+        username = username != null ? username.trim() : "";
+        password = password != null ? password.trim() : "";
+        if (username.isEmpty() || password.isEmpty()) {
+            return false;
         }
-    } catch (IOException e) {
-        e.printStackTrace();
-    }
-    return false;
+        String usersFile = "users.txt";
+        try (BufferedReader reader = new BufferedReader(new FileReader(usersFile))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+                if (line.isEmpty()) continue;
+                String[] userData = line.split(",");
+                if (userData.length >= 4
+                        && userData[1].trim().equalsIgnoreCase(username)
+                        && userData[3].trim().equals(password)) {
+                    return true;
+                }
+            }
+        } catch (FileNotFoundException e) {
+            // No users file yet
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'sidha'
+version = '1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+// NetBeans layout: single source root 'src' (ComputerCamera + main/java)
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+            exclude '**/*.form'
+        }
+        resources {
+            srcDirs = ['src']
+            include '**/*.png', '**/*.json', '**/*.txt', '**/*.py'
+            exclude '**/*.java', '**/*.form'
+        }
+    }
+    test {
+        java {
+            srcDirs = ['test']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir { dirs 'lib' }
+}
+
+dependencies {
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
+}
+
+application {
+    mainClass = 'main.java.Main'
+    applicationDefaultJvmArgs = ['-Djava.library.path=lib']
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'main.java.Main'
+    }
+}

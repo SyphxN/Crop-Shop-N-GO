@@ -47,8 +47,36 @@ public class ComputerCamera extends javax.swing.JFrame {
     
     private DaemonThread myThread = null;
     private VideoCapture webSource = null;
-    private final Mat frame = new Mat (1000, 1000, 1);
-    private final MatOfByte mem = new MatOfByte();
+    private Mat frame = null;
+    private MatOfByte mem = null;
+    private static boolean opencvLoaded = false;
+    private static boolean opencvAvailable = false;
+
+    /** Load OpenCV native library for current OS; call before using camera. */
+    private static synchronized boolean ensureOpenCVLoaded() {
+        if (opencvLoaded) return opencvAvailable;
+        opencvLoaded = true;
+        String os = System.getProperty("os.name", "").toLowerCase();
+        String libName;
+        if (os.contains("win")) {
+            libName = "lib/opencv_java249.dll";
+        } else if (os.contains("mac")) {
+            libName = "lib/libopencv_java249.dylib";
+        } else {
+            libName = "lib/libopencv_java249.so";
+        }
+        File file = new File(libName);
+        if (!file.exists()) {
+            return false;
+        }
+        try {
+            System.load(file.getAbsolutePath());
+            opencvAvailable = true;
+        } catch (UnsatisfiedLinkError e) {
+            opencvAvailable = false;
+        }
+        return opencvAvailable;
+    }
     
     private class DaemonThread implements Runnable {
         protected volatile boolean runnable = false;
@@ -59,7 +87,7 @@ public class ComputerCamera extends javax.swing.JFrame {
         @Override
         public void run() {
             synchronized (this) {
-                while (runnable) {
+                while (runnable && webSource != null && frame != null && mem != null) {
                     if (webSource.grab()) {
                         try {
                             webSource.retrieve(frame);
@@ -231,8 +259,8 @@ public class ComputerCamera extends javax.swing.JFrame {
                     throw new Exception ("Folder not exist");
                 }
                 
-                imageFileName = file.getAbsolutePath()+"\\image.jpg";
-                Highgui.imwrite (imageFileName, frame);
+                imageFileName = file.getAbsolutePath() + File.separator + "image.jpg";
+                if (frame != null) Highgui.imwrite(imageFileName, frame);
                 getImageFile=file;
                 setWebcamCapturedImageOnLabel(display);
                 JOptionPane.showMessageDialog(null, "Image Saved Successfully!\nDirectory: " + imageFileName);
@@ -245,11 +273,16 @@ public class ComputerCamera extends javax.swing.JFrame {
     }//GEN-LAST:event_CaptureButtonActionPerformed
 
     private void StartButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartButtonActionPerformed
-        // TODO add your handling code here:
-        webSource= new VideoCapture (0);
-        myThread = new DaemonThread (display);
-        Thread t = new Thread (myThread);
-        t.setDaemon (true);
+        if (!ensureOpenCVLoaded()) {
+            JOptionPane.showMessageDialog(this, "Camera is not available on this system.\nOn Mac/Linux you need the OpenCV native library (e.g. libopencv_java249.dylib) in the lib/ folder.", "Camera unavailable", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        if (frame == null) frame = new Mat(1000, 1000, 1);
+        if (mem == null) mem = new MatOfByte();
+        webSource = new VideoCapture(0);
+        myThread = new DaemonThread(display);
+        Thread t = new Thread(myThread);
+        t.setDaemon(true);
         myThread.runnable = true;
         t.start();
         StartButton.setEnabled(false);
@@ -258,8 +291,8 @@ public class ComputerCamera extends javax.swing.JFrame {
     }//GEN-LAST:event_StartButtonActionPerformed
 
     private void StopButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StopButtonActionPerformed
-        // TODO add your handling code here:
         stopWebCam();
+        webSource = null;
         StartButton.setEnabled(true);
         StopButton.setEnabled(false);
         CaptureButton.setEnabled(false);
@@ -283,9 +316,9 @@ public class ComputerCamera extends javax.swing.JFrame {
 
     
     private void stopWebCam(){
-        if (myThread != null){
-            if (myThread.runnable == true){
-                myThread.runnable = false;
+        if (myThread != null && myThread.runnable) {
+            myThread.runnable = false;
+            if (webSource != null) {
                 webSource.release();
             }
         }
@@ -313,12 +346,6 @@ public class ComputerCamera extends javax.swing.JFrame {
 
     
     
-
-    static{
-        File file = new File("lib/opencv_java249.dll");
-        System.load(file.getAbsolutePath());
-    
-    }
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

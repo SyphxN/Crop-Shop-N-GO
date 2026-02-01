@@ -168,29 +168,39 @@ public class Register extends Panel{
     }//GEN-LAST:event_button3ActionPerformed
     
     private boolean register(String name, String username, String email, String password) {
-    try (BufferedReader reader = new BufferedReader(new FileReader("users.txt"))) {
-        String line;
-        while ((line = reader.readLine()) != null) {
-            String[] userData = line.split(",");
-            String existingUsername = userData[1];
-            if (existingUsername.equals(username)) {
-                return false; // Username already exists
-            }
+        name = name != null ? name.trim() : "";
+        username = username != null ? username.trim() : "";
+        email = email != null ? email.trim() : "";
+        password = password != null ? password.trim() : "";
+        if (name.isEmpty() || username.isEmpty() || email.isEmpty() || password.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "All fields are required.", "Error", JOptionPane.ERROR_MESSAGE);
+            return false;
         }
-    } catch (IOException e) {
-        e.printStackTrace();
-        return false;
-    }
-
-    try (BufferedWriter writer = new BufferedWriter(new FileWriter("src\\main\\java\\users.txt", true))) {
-        writer.write(name + "," + username + "," + email + "," + password);
-        writer.newLine();
-    } catch (IOException e) {
-        e.printStackTrace();
-        return false;
-    }
-
-    return true; // Registration successful
+        String usersFile = "users.txt";
+        try (BufferedReader reader = new BufferedReader(new FileReader(usersFile))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+                if (line.isEmpty()) continue;
+                String[] userData = line.split(",");
+                if (userData.length >= 2 && userData[1].trim().equalsIgnoreCase(username)) {
+                    return false; // Username already exists
+                }
+            }
+        } catch (FileNotFoundException e) {
+            // File doesn't exist yet; treat as no users
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(usersFile, true))) {
+            writer.write(name + "," + username + "," + email + "," + password);
+            writer.newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return true; // Registration successful
     }
     private void button3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_button3MouseClicked
         // TODO add your handling code here:
